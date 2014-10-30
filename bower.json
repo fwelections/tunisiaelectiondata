@@ -1,0 +1,15 @@
+{
+  "name": "tunisiaelectiondata",
+  "version": "2.0.0",
+  "description": "A starter project for AngularJS",
+  "hopepage": "https://github.com/radproject/tunisiaelectiondata",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0"
+  }
+}
