@@ -1,7 +1,7 @@
 {
   "name": "tunisiaelectiondata",
   "version": "2.0.0",
-  "description": "A starter project for AngularJS",
+  "description": "",
   "hopepage": "https://github.com/radproject/tunisiaelectiondata",
   "license": "MIT",
   "private": true,
@@ -11,6 +11,7 @@
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
     "bootstrap": "latest",
-    "jasny-bootstrap": "latest"
+    "jasny-bootstrap": "latest",
+    "ng-i18next":"latest"
   }
 }

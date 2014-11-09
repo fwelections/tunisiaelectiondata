@@ -2,7 +2,7 @@
   "name": "tunisiaelectiondata",
   "private": true,
   "version": "2.0.0",
-  "description": "A starter project for AngularJS",
+  "description": "",
   "repository": "https://github.com/radproject/tunisiaelectiondata",
   "license": "MIT",
   "devDependencies": {
