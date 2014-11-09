@@ -6,7 +6,7 @@ angular.module('ted', [
   'jm.i18next',
   'ted.view1'
 ]).
-config(['$routeProvider', function($routeProvider, $locationProvider) {
+config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
 
   $locationProvider.html5Mode(true);
   $locationProvider.hashPrefix = '!';

@@ -14,13 +14,39 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
- 
+     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#">Tunisia election data</a>
+      <ul class="nav navmenu-nav">
+        <li><a href="#">2014 Parliamentary </a></li>
+        <li class="active"><a href="#">2011 NCA </a></li>
+        <li><a href="#">Static</a></li>
+        <li><a href="#">Community Viz</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+     
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="page-header">
+         <div ng-view></div>
+        <h1>@2014</h1>
+      </div>
+       
+    </div>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view></div>
+ 
 
  
   <!-- In production use:
