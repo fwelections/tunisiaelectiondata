@@ -4,11 +4,11 @@
 angular.module('ted', [
   'ngRoute',
   'jm.i18next',
-  'ted.view1'
+  'ted.par14'
 ]).
 config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
 
   $locationProvider.html5Mode(true);
   $locationProvider.hashPrefix = '!';
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/par14'});
 }]);

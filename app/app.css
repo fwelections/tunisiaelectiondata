@@ -1,15 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu:400,500,700|Raleway:400,700,500);
+
 html, body {
   height: 100%;
 }
 
-body {
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400,
   padding: 50px 0 0 0;
+  color: #CECECE;
+  background: #fafaf5;
+    overflow-x:hidden;
+    color: #404040;
+    -webkit-overflow-scrolling: touch;
+  
 }
 
 .navbar-toggle {
   float: left;
   margin-left: 15px;
+
 }
+
+.navmenu-default, .navbar-default .navbar-offcanvas{
+  font-family: 'Raleway', sans-serif;
+  background-color: #fafaf5;
+  background-color:#fafaf5;
+}
+
+.navmenu-nav {
+margin-bottom: 10px;
+margin-top: 50px;
+}
+
+#title{
+  padding: 60px 40px 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.navmenu  li.active  a:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: #505050;
+}
+.navmenu li {
+border-top: 1px solid #EBEBEB;
+border-bottom: 1px solid #FFFFFF;
+cursor: pointer;
+margin-bottom: 0;
+}
+.navmenu li a:focus, .navmenu li.active a , .navmenu li a:hover {
+color: #474747 !important;
+background: #FEFEFE !important;
+/* font-family: ralewaysemibold; */
+}
+.navmenu  li a {
+display: block;
+padding: 20px 35px 20px 35px;
+color: #818181;
+font-size: 14px;
+text-transform: uppercase;
+position: relative;
+}
+.inner-partial{
+  min-height: 500px;
+  height: 100%
+  width:100%;
+
+
+}
+
 
 @media (min-width: 0) {
   .navbar-toggle {
