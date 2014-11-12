@@ -72,8 +72,192 @@ position: relative;
   height: 100%
   width:100%;
 
-
 }
+.main-container{
+  position: relative;
+  margin-left: 70px;
+  z-index: 2;
+  color: #B1B1B1;
+  background-color: #1c1c1c;
+  
+  /* border-left: 1px solid #f1f1f1; */
+}
+.main-stories{
+  background-color:#1c1c1c;
+  margin-left:350px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.sidebar{
+position: fixed;
+top: 0;
+left: 0;
+margin-left: 70px;
+height: 100%;
+width: 350px;
+background-color: #1c1c1c;
+z-index: 5;
+}
+.vcenter-wrapper {
+display: table;
+height: 100%;
+width: 100%;
+}
+.inner-wrapper {
+position: relative;
+height: 100%;
+width: 100%;
+overflow-y: auto;
+/* left: -70px; */
+/* margin-left: 70px; */
+}
+.vcenter {
+display: table-cell;
+vertical-align: middle;
+}
+.sidebar .side-content{
+  padding: 0 15%;
+  font-size: 13px;
+}
+.sidebar .title{
+  color:#fff;
+  font-size: 38px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-family: 'Ubuntu';
+  line-height: 1.1em;
+  margin-top: 0;
+}
+
+.sidebar .title span{
+  display: block;
+}
+.sidebar .title .first-part{
+  font-size: 17px;
+  line-height: 1em;
+  font-weight: 300;
+  font-family: 'ralewaylight';
+}
+.sidebar .title .second-part{
+  color: #dc971f;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'ralewaylight';
+  line-height: 1.0em;
+}
+
+.story-item{
+  height:300px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.story-item >a{
+  display: block;
+  height: 100%;
+}
+.story-item img{
+  width:100%;
+}
+ 
+.story-overlay {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.story-hover-3 {
+  position: relative;
+  display: block;
+}
+.story-hover-3> a{
+  display: block;
+}
+.story-hover-3 .story-overlay 
+{
+
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.story-hover-3 .story-overlay{
+  opacity: 1;
+  background: rgba(0,0,0,0.5);
+}
+.story-hover-3:hover .story-overlay,
+.story-hover-3:focus .story-overlay{
+  background: rgba(0,0,0,0.3);
+}
+.story-hover-3 .story-overlay .overlay-texts{
+  padding:0 5%;
+}
+.story-hover-3 .story-overlay .title{
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  font-weight: 700;
+  font-family: 'Ubuntu';
+  position: relative;
+  color:#d0d0d0;
+  -webkit-transition: all 0.25s ease;
+     -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+       -o-transition: all 0.25s ease;
+          transition: all 0.25s ease;
+}
+.story-hover-3 .story-overlay .title:after{
+  content: '';
+  position: absolute;
+  bottom:-15px;
+  left:0;
+  height: 5px;
+  background-color: #dc971f; 
+  width: 30px;
+  -webkit-transition: all 0.25s ease;
+     -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+       -o-transition: all 0.25s ease;
+          transition: all 0.25s ease;
+}
+.story-hover-3 .story-overlay .subtitle{
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  font-weight: 400;
+  color: #fff;
+}
+.story-hover-3:hover .story-overlay .title,
+.story-hover-3:focus .story-overlay .title{
+  color:#f1f1f1;
+}
+.story-hover-3:hover .story-overlay .title:after,
+.story-hover-3:focus .story-overlay .title:after{
+  width: 40px;
+  position: absolute;
+  /* top:50%; */
+}
+
+ 
+
+
+
 
 
 @media (min-width: 0) {
