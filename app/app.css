@@ -9,7 +9,7 @@ body{
   font-weight: 400,
   padding: 50px 0 0 0;
   color: #CECECE;
-  background: #fafaf5;
+  background: #1c1c1c;
     overflow-x:hidden;
     color: #404040;
     -webkit-overflow-scrolling: touch;
@@ -75,8 +75,7 @@ position: relative;
 }
 .main-container{
   position: relative;
-  margin-left: 70px;
-  z-index: 2;
+   z-index: 2;
   color: #B1B1B1;
   background-color: #1c1c1c;
   
@@ -84,21 +83,16 @@ position: relative;
 }
 .main-stories{
   background-color:#1c1c1c;
-  margin-left:350px;
+  /*margin-left:350px;*/
   position: relative;
   height: 100%;
   z-index: 3;
 }
 
 .sidebar{
-position: fixed;
-top: 0;
-left: 0;
-margin-left: 70px;
-height: 100%;
-width: 350px;
-background-color: #1c1c1c;
 z-index: 5;
+    padding-top: 15%;
+    margin-bottom: 20px;
 }
 .vcenter-wrapper {
 display: table;
