@@ -24,8 +24,7 @@ angular.module('ted.dataService', [])
                          //var packageUrl= package + 
                 httpPromise = $http.get(pack);
 
-                httpPromise.then(function (response) {
-                    
+                httpPromise.then(function (response) {      
                     deferred.resolve(response);
                     return response.data;
                    
@@ -33,7 +32,22 @@ angular.module('ted.dataService', [])
                     console.error(error);
                 });
 
-                
+                return deferred.promise; 
+
+            },
+               readPackageDescription :function(pack){
+                var deferred = $q.defer(),
+                httpPromise = $http.get(pack);
+
+                httpPromise.then(function (response) {      
+                    deferred.resolve(response);
+                    return response.data;
+                   
+                }, function (error) {
+                    console.error(error);
+                });
+
+                return deferred.promise; 
 
             }
         };
