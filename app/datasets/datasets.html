@@ -1,5 +1,33 @@
-<ul  ng-repeat="dataset in datasets">
-<li> {{dataset.title}}</li>
-<li> {{dataset.license}}</li>
-
+ 
+<div class="page-wrapper regular-page container">
+    <h2 class="section-title double-title">
+        datasets
+	</h2>
+    <div class="row search-area">
+     <div class="col-md-12" style="textalign:center">
+         <h3>Find data package </h3>
+         <input ng-model="searchDataset" class="searchbox">
+        
+    </div>
+    </div>
+<ul>       
+<li class="col-md-6 datasetItem" ng-repeat="dataset in datasets | filter:searchDataset">  
+        
+    <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title"> 
+            {{dataset.title}}
+            </h4>
+        </div>
+        <div class="panel-body">
+            {{dataset.description}}
+        </div>
+</div>
+        
+</li>
+ 
 </ul>
+</div>
+
+
+	
