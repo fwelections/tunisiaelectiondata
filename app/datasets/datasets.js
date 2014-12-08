@@ -3,18 +3,22 @@
 angular.module('ted.datasets', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/datasets', {
-    templateUrl: 'datasets/datasets.html',
+  $routeProvider
+  .when('/datasets', {
+    templateUrl: '/datasets/datasets.html',
     controller: 'datasetsCtrl'
+  })
+    .when('/datasets/:name', {
+    templateUrl: '/datasets/dataset.html',
+    controller: 'datasetCtrl'
   });
 }])
 
-.controller('datasetsCtrl', ['$scope','registry','Datasets',function($scope,registry,Datasets){
-    $scope.datasets = [];
+.controller('datasetsCtrl', ['$scope','registry','Datasets','$rootScope',function($scope,registry,Datasets,$rootScope){
+$scope.datasets = [];
 var promise = Datasets.list();
  promise.then(function(response){
      var lines = response.data.split(/\n/);
-     console.log(lines);
      var dataJson=[];
      for(var repo in lines){
          var rawArray = lines[repo].split('/');
@@ -23,13 +27,28 @@ var promise = Datasets.list();
          var promise1=  Datasets.readPackage(rawUrl);
              promise1.then(function(response1){
                  $scope.datasets.push(response1.data);
-                 console.log( $scope.datasets);
+                  $rootScope.datasets = $scope.datasets;
              });
          }
      
-        
-    
     });
     
 //
+}])
+
+.controller('datasetCtrl', ['$scope','registry','Datasets','$rootScope','$routeParams',function($scope,registry,Datasets,$rootScope,$routeParams){
+    
+    $scope.dataset = null ; 
+    for (var d in $rootScope.datasets){
+    
+        if ($rootScope.datasets[d].name==$routeParams.name)
+             $scope.dataset = $rootScope.datasets[d];
+     }
+   if ( $scope.dataset != null ){
+       console.log ('found');
+   
+   
+   }
+    
+    
 }]);

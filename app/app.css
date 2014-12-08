@@ -318,6 +318,22 @@ input{
     width: 40%;
 }
 
+.source span {
+    float: left;
+    margin-right: 10px;
+}
+.keywords ul li {
+    list-style-type: none;
+    margin-right: 5px;
+    float: left;
+}
+.bg-red {
+    background-color: #E66B6B;
+}
+.panel-body div {
+    margin-bottom: 7px;
+
+}
 h1,.h1{
 	font-size: 36px;
 	margin-top: 35px;
@@ -453,8 +469,7 @@ blockquote > h6:first-child{
 .double-title span{
 	position: relative;
 	font-size: 25px;
-	display: block;
-	top: 5px;
+	display: inline-table;
 	text-transform: initial;
 	font-weight: 600;
 	font-family: 'raleway';

@@ -1,11 +1,11 @@
  
 <div class="page-wrapper regular-page container">
     <h2 class="section-title double-title">
-        datasets
+        datasets <span>({{datasets.length}})</span>
 	</h2>
     <div class="row search-area">
      <div class="col-md-12" style="textalign:center">
-         <h3>Find data package </h3>
+         <h3>Find data packages </h3>
          <input ng-model="searchDataset" class="searchbox">
         
     </div>
@@ -16,11 +16,23 @@
     <div class="panel">
         <div class="panel-heading">
             <h4 class="panel-title"> 
-            {{dataset.title}}
+           <a href="/datasets/{{dataset.name}}"> {{dataset.title}} </a>
             </h4>
         </div>
         <div class="panel-body">
-            {{dataset.description}}
+            <div class="description">{{dataset.description}}</div>
+            
+            <div class="source">
+            <span>Sources:</span>
+                <div ng-repeat="source in dataset.sources">
+                    <a href="{{source.web}}" target="_blank">{{source.name}}</a></div>
+            
+            </div>
+            <div class="keywords">
+            <ul>
+                <li ng-repeat="keyword in dataset.keywords "><span class="label bg-red">{{keyword}}</span></li>    
+            </ul>
+            </div>
         </div>
 </div>
         
