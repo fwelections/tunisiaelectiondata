@@ -10,11 +10,7 @@
     <div class="row">
      <div class="col-md-12" >
             <div class="panel">
-        <div class="panel-heading">
-            <h4 class="panel-title"> 
-           <a href="/datasets/{{dataset.name}}"> {{dataset.title}} </a>
-            </h4>
-        </div>
+        
         <div class="panel-body">
             <div class="description">{{dataset.description}}</div>
             
@@ -29,11 +25,32 @@
                 <li ng-repeat="keyword in dataset.keywords "><span class="label bg-red">{{keyword}}</span></li>    
             </ul>
             </div>
+            <br/>
+            {{dataset.git}}
+            //TODO : ad licence  , repo and issues 
+            <br/>
+            {{dataset.readme}}
         </div>
 </div>
     </div>
     </div>
-        
+     <div class="row">
+    <h3 class="bordered ">Data files</h3>
+    <ul>
+    
+        <li ng-repeat=" resource in dataset.resources" class="resourcesList">
+         <div class="row">
+         <div class="col-md-3">{{resource.name}}</div>
+             <div class="col-md-5">{{resource.title}}</div>
+             <div class="col-md-2">{{resource.format}}</div>
+             <div class="col-md-2"><a href="{{resource.download}}"> Download </a></div>
+             <div class="clearfix"></div>
+            </div>
+        </li>
+    </ul>
+    
+    
+    </div>   
 
         
 </div>

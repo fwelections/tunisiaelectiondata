@@ -23,9 +23,14 @@ var promise = Datasets.list();
      for(var repo in lines){
          var rawArray = lines[repo].split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+         //change this for the live version
          var rawUrl  = lines[repo] + '/datapackage.json';
          var promise1=  Datasets.readPackage(rawUrl);
              promise1.then(function(response1){
+                 var dataset = response1.data;
+                 dataset.git = lines[repo];
+                 //change this for the live version 
+                 dataset.readme=  lines[repo] + '/README.md';
                  $scope.datasets.push(response1.data);
                   $rootScope.datasets = $scope.datasets;
              });

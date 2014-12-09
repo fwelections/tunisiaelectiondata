@@ -475,7 +475,7 @@ blockquote > h6:first-child{
 	font-family: 'raleway';
 }
 
-.datasetItem {
+.datasetItem , .resourcesList{
  list-style-type: none;
 }
 .panel {
