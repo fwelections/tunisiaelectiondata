@@ -1,0 +1,39 @@
+<div class="page-wrapper regular-page container" ng-if="dataset == null ">
+    <h4> Dataset Not found . make sure you spelled the name correctly . <a href="/datasets"> Go back to datasets list</a> </h4>
+    
+</div>
+
+<div class="page-wrapper regular-page container" ng-if="dataset != null ">
+    <h2 class="section-title double-title">
+       <span>({{dataset.title}})</span>
+	</h2>
+    <div class="row">
+     <div class="col-md-12" >
+            <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title"> 
+           <a href="/datasets/{{dataset.name}}"> {{dataset.title}} </a>
+            </h4>
+        </div>
+        <div class="panel-body">
+            <div class="description">{{dataset.description}}</div>
+            
+            <div class="source">
+            <span>Sources:</span>
+                <div ng-repeat="source in dataset.sources">
+                    <a href="{{source.web}}" target="_blank">{{source.name}}</a></div>
+            
+            </div>
+            <div class="keywords">
+            <ul>
+                <li ng-repeat="keyword in dataset.keywords "><span class="label bg-red">{{keyword}}</span></li>    
+            </ul>
+            </div>
+        </div>
+</div>
+    </div>
+    </div>
+        
+
+        
+</div>

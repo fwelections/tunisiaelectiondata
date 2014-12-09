@@ -46,9 +46,10 @@ var promise = Datasets.list();
      }
    if ( $scope.dataset != null ){
        console.log ('found');
-   
+       
    
    }
+    
     
     
 }]);
