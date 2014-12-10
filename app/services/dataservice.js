@@ -19,14 +19,15 @@ angular.module('ted.dataService', [])
 
                 return deferred.promise;
             },
-            readPackage :function(pack){
+            readPackage :function(pack,repo){
                 var deferred = $q.defer(),
                          //var packageUrl= package + 
                 httpPromise = $http.get(pack);
 
                 httpPromise.then(function (response) {      
-                    deferred.resolve(response);
-                    return response.data;
+                var newo= response.data.git=repo;
+                 deferred.resolve(response);  
+                 return response.data;
                    
                 }, function (error) {
                     console.error(error);
@@ -34,21 +35,6 @@ angular.module('ted.dataService', [])
 
                 return deferred.promise; 
 
-            },
-               readPackageDescription :function(pack){
-                var deferred = $q.defer(),
-                httpPromise = $http.get(pack);
-
-                httpPromise.then(function (response) {      
-                    deferred.resolve(response);
-                    return response.data;
-                   
-                }, function (error) {
-                    console.error(error);
-                });
-
-                return deferred.promise; 
-
-            }
+            } 
         };
     });

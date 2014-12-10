@@ -18,23 +18,21 @@ angular.module('ted.datasets', ['ngRoute'])
 $scope.datasets = [];
 var promise = Datasets.list();
  promise.then(function(response){
-     var lines = response.data.split(/\n/);
-     var dataJson=[];
-     for(var repo in lines){
-         var rawArray = lines[repo].split('/');
+     var rlines = response.data.split(/\n/);
+    
+     for(var i=0; i< rlines.length ;i++ ){
+          var rawArray = rlines[i].split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
          //change this for the live version
-         var rawUrl  = lines[repo] + '/datapackage.json';
-         var promise1=  Datasets.readPackage(rawUrl);
+         var rawUrl  = rlines[i] + '/datapackage.json';
+         var promise1=  Datasets.readPackage(rawUrl,rlines[i]);
              promise1.then(function(response1){
                  var dataset = response1.data;
-                 dataset.git = lines[repo];
-                 //change this for the live version 
-                 dataset.readme=  lines[repo] + '/README.md';
                  $scope.datasets.push(response1.data);
-                  $rootScope.datasets = $scope.datasets;
+                 $rootScope.datasets = $scope.datasets;
              });
          }
+     
      
     });
     
@@ -51,6 +49,8 @@ var promise = Datasets.list();
      }
    if ( $scope.dataset != null ){
        console.log ('found');
+       
+       console.log ($scope.dataset);
        
    
    }
