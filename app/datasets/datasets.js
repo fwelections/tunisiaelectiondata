@@ -41,6 +41,56 @@ var promise = Datasets.list();
 
 .controller('datasetCtrl', ['$scope','registry','Datasets','$rootScope','$routeParams',function($scope,registry,Datasets,$rootScope,$routeParams){
     
+    var createMultiView = function(dataset, state) {
+  // remove existing multiview if present
+   var reload = false;
+  if (window.multiView) {
+    window.multiView.remove();
+    window.multiView = null;
+    reload = true;
+  }
+window.explorerDiv = $('.viewer');
+  var $el = $('<div />');
+  $el.appendTo(window.explorerDiv);
+
+  // customize the subviews for the MultiView
+  var views = [
+    {
+      id: 'grid',
+      label: 'Grid',
+      view: new recline.View.SlickGrid({
+        model: dataset
+       })
+    },
+    {
+      id: 'graph',
+      label: 'Graph',
+      view: new recline.View.Graph({
+        model: dataset
+
+      })
+    },
+    {
+      id: 'map',
+      label: 'Map',
+      view: new recline.View.Map({
+        model: dataset
+      })
+    }
+  ];
+
+  var multiView = new recline.View.MultiView({
+    model: dataset,
+    el: $el,
+    state: state,
+    views: views
+  });
+  return multiView;
+}
+
+    
+    
+    
     $scope.dataset = null ; 
     for (var d in $rootScope.datasets){
     
@@ -52,19 +102,35 @@ var promise = Datasets.list();
     
        console.log ($scope.dataset);
          for (var i=0; i<$scope.dataset.resources.length ; i++){
-             var resource = $scope.dataset.resources[i];
+        
+       var resource = $scope.dataset.resources[i];
             var rawArray = $scope.dataset.git.split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
          //change this for the live version
-         var rawUrl  =  $scope.dataset.git + '/' + resource.path;
+         var rawUrl  =  '../' + $scope.dataset.git + '/' + resource.path;
              console.log(rawUrl);
-             
+             resource.fields = _.map(resource.schema.fields, function(field) {
+                if (field.name && !field.id) {
+                field.id = field.name;
+                }
+                return field;
+                });
              var dataset = new recline.Model.Dataset({
-                 
-              
+                 url:rawUrl,
+                 backend: 'csv',        
              });
-         
-         }
+             setTimeout(
+             dataset.fetch().done(function() {
+                createMultiView(dataset);
+                // multiViewGridView.visible=true;
+                  //         multiViewGridView.render(); 
+            
+       
+
+        }),3000);
+            
+ 
+}
        
    
    }
