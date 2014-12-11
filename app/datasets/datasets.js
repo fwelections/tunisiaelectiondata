@@ -49,8 +49,22 @@ var promise = Datasets.list();
      }
    if ( $scope.dataset != null ){
        console.log ('found');
-       
+    
        console.log ($scope.dataset);
+         for (var i=0; i<$scope.dataset.resources.length ; i++){
+             var resource = $scope.dataset.resources[i];
+            var rawArray = $scope.dataset.git.split('/');
+        // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
+         //change this for the live version
+         var rawUrl  =  $scope.dataset.git + '/' + resource.path;
+             console.log(rawUrl);
+             
+             var dataset = new recline.Model.Dataset({
+                 
+              
+             });
+         
+         }
        
    
    }
