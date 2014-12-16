@@ -41,7 +41,7 @@ var promise = Datasets.list();
 
 .controller('datasetCtrl', ['$scope','registry','Datasets','$rootScope','$routeParams',function($scope,registry,Datasets,$rootScope,$routeParams){
     
-    var createMultiView = function(dataset, state) {
+    var createMultiView = function(name,dataset, state,index) {
   // remove existing multiview if present
    var reload = false;
   if (window.multiView) {
@@ -50,16 +50,21 @@ var promise = Datasets.list();
     reload = true;
   }
 window.explorerDiv = $('.viewer');
-  var $el = $('<div />');
+ window.explorerDiv.append('<hr/><h2>'+name +'</h2>');
+  var $el = $('<div id="ds'+index+'" />');
   $el.appendTo(window.explorerDiv);
-
-  // customize the subviews for the MultiView
+   // customize the subviews for the MultiView
   var views = [
     {
       id: 'grid',
       label: 'Grid',
       view: new recline.View.SlickGrid({
-        model: dataset
+        model: dataset,
+          state: {
+fitColumns: true,
+                      topPanelHeight: 45,
+
+}
        })
     },
     {
@@ -89,22 +94,9 @@ window.explorerDiv = $('.viewer');
 }
 
     
-    
-    
-    $scope.dataset = null ; 
-    for (var d in $rootScope.datasets){
-    
-        if ($rootScope.datasets[d].name==$routeParams.name)
-             $scope.dataset = $rootScope.datasets[d];
-     }
-   if ( $scope.dataset != null ){
-       console.log ('found');
-    
-       console.log ($scope.dataset);
-         for (var i=0; i<$scope.dataset.resources.length ; i++){
+    function createDatasetView(resource, index, array) {
         
-       var resource = $scope.dataset.resources[i];
-            var rawArray = $scope.dataset.git.split('/');
+              var rawArray = $scope.dataset.git.split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
          //change this for the live version
          var rawUrl  =  '../' + $scope.dataset.git + '/' + resource.path;
@@ -119,18 +111,53 @@ window.explorerDiv = $('.viewer');
                  url:rawUrl,
                  backend: 'csv',        
              });
-             setTimeout(
-             dataset.fetch().done(function() {
-                createMultiView(dataset);
-                // multiViewGridView.visible=true;
-                  //         multiViewGridView.render(); 
-            
+                     dataset.fetch().done(function() {
+        createMultiView(resource.name,dataset,null,index);});
+             
+    }
+    
+    $scope.dataset = null ; 
+    for (var d in $rootScope.datasets){
+    
+        if ($rootScope.datasets[d].name==$routeParams.name)
+             $scope.dataset = $rootScope.datasets[d];
+     }
+   if ( $scope.dataset != null ){
+       console.log ('found');
+    
+       console.log ($scope.dataset);
+       $scope.dataset.resources.forEach(createDatasetView);
        
-
-        }),3000);
-            
- 
-}
+//         for (var i=0; i<$scope.dataset.resources.length ; i++){
+//        
+//       var resource = $scope.dataset.resources[i];
+//            var rawArray = $scope.dataset.git.split('/');
+//        // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
+//         //change this for the live version
+//         var rawUrl  =  '../' + $scope.dataset.git + '/' + resource.path;
+//             console.log(rawUrl);
+//             resource.fields = _.map(resource.schema.fields, function(field) {
+//                if (field.name && !field.id) {
+//                field.id = field.name;
+//                }
+//                return field;
+//                });
+//             var dataset = new recline.Model.Dataset({
+//                 url:rawUrl,
+//                 backend: 'csv',        
+//             });
+//             
+//             dataset.fetch().done(function() {
+//                createMultiView(dataset,null,i);
+//                // multiViewGridView.visible=true;
+//                  //         multiViewGridView.render(); 
+//            
+//       
+//
+//        });
+//            
+// 
+//}
        
    
    }
