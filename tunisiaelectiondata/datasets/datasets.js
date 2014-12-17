@@ -5,11 +5,11 @@ angular.module('ted.datasets', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/datasets', {
-            templateUrl: '/datasets/datasets.html',
+            templateUrl: 'datasets/datasets.html',
             controller: 'datasetsCtrl'
         })
         .when('/datasets/:name', {
-            templateUrl: '/datasets/dataset.html',
+            templateUrl: 'datasets/dataset.html',
             controller: 'datasetCtrl'
         });
 }])
@@ -97,7 +97,7 @@ angular.module('ted.datasets', ['ngRoute'])
         var rawArray = $scope.dataset.git.split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
         //change this for the live version
-        var rawUrl = '../' + $scope.dataset.git + '/' + resource.path;
+        var rawUrl =  $scope.dataset.git + '/' + resource.path;
         console.log(rawUrl);
         resource.fields = _.map(resource.schema.fields, function(field) {
             if (field.name && !field.id) {
@@ -127,10 +127,10 @@ angular.module('ted.datasets', ['ngRoute'])
     }
     if ($scope.dataset != null) {
         console.log('found');
-
+        
         console.log($scope.dataset);
         $scope.dataset.resources.forEach(createDatasetView);
-        $scope.readmeLink ='../testpackages/bond-yields-uk-10y/README.md'; 
+        $scope.readmeLink ='testpackages/bond-yields-uk-10y/README.md'; 
          
         //         for (var i=0; i<$scope.dataset.resources.length ; i++){
         //        

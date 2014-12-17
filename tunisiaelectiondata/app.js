@@ -11,8 +11,8 @@ var ted= angular.module('ted', [
 ]).
 config(['$routeProvider','$locationProvider','markedProvider',function($routeProvider, $locationProvider,markedProvider) {
 
-  $locationProvider.html5Mode(true);
-  $locationProvider.hashPrefix = '!';
+ // $locationProvider.html5Mode(true);
+ // $locationProvider.hashPrefix = '!';
   $routeProvider.otherwise({redirectTo: '/par14'});
    markedProvider.setOptions({gfm: true});
 
