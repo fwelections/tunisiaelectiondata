@@ -12,6 +12,7 @@
     "angular-mocks": "~1.2.x",
     "bootstrap": "latest",
     "jasny-bootstrap": "latest",
-    "ng-i18next":"latest"
+    "ng-i18next":"latest",
+    "angular-marked":"latest"
   }
 }

@@ -112,7 +112,10 @@ angular.module('ted.datasets', ['ngRoute'])
         dataset.fetch().done(function() {
             
             createMultiView(resource.name,resource.views, dataset, null, index);
+             dataset.query({size: dataset.recordCount});
         });
+        
+        
 
     }
 
@@ -127,7 +130,8 @@ angular.module('ted.datasets', ['ngRoute'])
 
         console.log($scope.dataset);
         $scope.dataset.resources.forEach(createDatasetView);
-
+        $scope.readmeLink ='../testpackages/bond-yields-uk-10y/README.md'; 
+         
         //         for (var i=0; i<$scope.dataset.resources.length ; i++){
         //        
         //       var resource = $scope.dataset.resources[i];

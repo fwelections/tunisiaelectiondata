@@ -460,7 +460,7 @@ my.Map = Backbone.View.extend({
   _setupMap: function(){
     var self = this;
     L.mapbox.accessToken = 'pk.eyJ1IjoidHVuaXNpYSIsImEiOiJwelVyLW1JIn0.mBhvyh8Ui8NzOq8Bpzl83g';
-    this.map = new L.mapbox.Map(this.$map.get(0),'tunisia.h2h6215h');
+    this.map = new L.mapbox.Map(this.$map.get(0),'tunisia.52cc564a');
 
     var mapUrl = "http://otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png";
     var osmAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">';
