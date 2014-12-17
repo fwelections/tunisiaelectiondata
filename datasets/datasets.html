@@ -1,0 +1,45 @@
+ 
+<div class="page-wrapper regular-page container">
+    <h2 class="section-title double-title">
+        datasets <span>({{datasets.length}})</span>
+	</h2>
+    <div class="row search-area">
+     <div class="col-md-12" style="textalign:center">
+         <h3>Find data packages </h3>
+         <input ng-model="searchDataset" class="searchbox">
+        
+    </div>
+    </div>
+<ul>       
+<li class="col-md-6 datasetItem" ng-repeat="dataset in datasets | filter:searchDataset">  
+        
+    <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title"> 
+           <a href="#/datasets/{{dataset.name}}"> {{dataset.title}} </a>
+            </h4>
+        </div>
+        <div class="panel-body">
+            <div class="description">{{dataset.description}}</div>
+            
+            <div class="source">
+            <span>Sources:</span>
+                <div ng-repeat="source in dataset.sources">
+                    <a href="{{source.web}}" target="_blank">{{source.name}}</a></div>
+            
+            </div>
+            <div class="keywords">
+            <ul>
+                <li ng-repeat="keyword in dataset.keywords "><span class="label bg-red">{{keyword}}</span></li>    
+            </ul>
+            </div>
+        </div>
+</div>
+        
+</li>
+ 
+</ul>
+</div>
+
+
+	

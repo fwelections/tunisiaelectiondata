@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="ted" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tunisia Election Data</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css">
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+
+  <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="assets/vendor/slickgrid/2.0.1/slick.grid.css">
+  <link rel="stylesheet" href="assets/vendor/recline/recline.css">
+    
+  <base href="/tunisiaelectiondata/" />
+
+</head>
+<body>
+     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#" id="title"><h3>Tunisia election data</h3></a>
+      <ul class="nav navmenu-nav">
+        <li class="active"><a href="#">2014 Parliamentary </a></li>
+        <li><a href="#">2011 NCA </a></li>
+        <li><a href="#/datasets">Datasets</a></li>
+        <li><a href="#">Community Viz</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+     
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="main-container">
+       
+       <div class="main-content">
+         <div ng-view></div>
+       </div>
+    </div>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+ 
+
+ 
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+   <script src="bower_components/i18next/i18next.min.js"></script>
+   <script src="bower_components/ng-i18next/dist/ng-i18next.min.js"></script>
+    <script src="bower_components/marked/lib/marked.js"></script>
+    <script src="bower_components/angular-marked/angular-marked.js"></script>
+    <!--  recline dependency  scripts   -->
+    <script type="text/javascript" src="assets/vendor/underscore/1.4.4/underscore.js"></script>
+    <script type="text/javascript" src="assets/vendor/backbone/1.0.0/backbone.js"></script>
+    <script type="text/javascript" src="assets/vendor/mustache/0.5.0-dev/mustache.js"></script>
+     <script type="text/javascript" src="assets/vendor/flot/jquery.flot.js"></script>
+  <script type="text/javascript" src="assets/vendor/flot/jquery.flot.time.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+
+   <script type="text/javascript" src="assets/vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
+
+    
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js"></script>
+ 
+  <script src="assets/vendor/slickgrid/2.0.1/jquery.event.drag-2.2.js"></script>
+  <script src="assets/vendor/slickgrid/2.0.1/jquery.event.drop-2.2.js"></script>
+
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/slick.core.js"></script>
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/slick.formatters.js"></script>
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/slick.editors.js"></script>
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/slick.grid.js"></script>
+
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/plugins/slick.rowselectionmodel.js"></script>
+  <script type="text/javascript" src="assets/vendor/slickgrid/2.0.1/plugins/slick.rowmovemanager.js"></script>
+
+
+  <script type="text/javascript" src="assets/vendor/moment/2.0.0/moment.js"></script>
+  <script type="text/javascript" src="assets/vendor/timeline/js/timeline.js"></script>
+    
+  <!-- model and backends -->
+  <script type="text/javascript" src="assets/vendor/recline/src/ecma-fixes.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/model.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/backend.memory.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/backend.dataproxy.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/backend/backend.gdocs.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/backend/csv.js"></script>
+
+  <!-- views -->
+  <script type="text/javascript" src="assets/vendor/recline/src/view.grid.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.slickgrid.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.flot.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.graph.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.map.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.timeline.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.pager.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.queryeditor.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.filtereditor.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.valuefilter.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.facetviewer.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/widget.fields.js"></script>
+  <script type="text/javascript" src="assets/vendor/recline/src/view.multiview.js"></script>
+
+    
+     <!-- 
+      
+    <script type="text/javascript" src="assets/vendor/recline/recline.js"></script>
+
+    -->
+    <!--  Angular app scripts -->
+  <script src="app.js"></script>
+  <script src="par14/par14.js"></script>
+  <script src="datasets/datasets.js"></script>
+  <script src="services/translation.js"></script>
+    <script src="services/dataservice.js"></script>
+  
+</body>
+</html>
