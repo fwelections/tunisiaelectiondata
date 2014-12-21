@@ -14,7 +14,7 @@ angular.module('ted.datasets', ['ngRoute'])
         });
 }])
 
-.controller('datasetsCtrl', ['$scope', 'registry', 'Datasets', function($scope, registry, Datasets) {
+.controller('datasetsCtrl', ['$scope', 'Datasets', function($scope, Datasets) {
     $scope.datasets = [];
     var promise = Datasets.list();
     promise.then(function(response) {
@@ -22,9 +22,9 @@ angular.module('ted.datasets', ['ngRoute'])
 
         for (var i = 0; i < rlines.length; i++) {
             var rawArray = rlines[i].split('/');
-            // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+            var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
-            var rawUrl = rlines[i] + '/datapackage.json';
+          //  var rawUrl = rlines[i] + '/datapackage.json';
             var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
             promise1.then(function(response1) {
                 var dataset = response1.data;
@@ -39,7 +39,7 @@ angular.module('ted.datasets', ['ngRoute'])
     //
 }])
 
-.controller('datasetCtrl', ['$scope', 'registry', 'Datasets', '$routeParams', function($scope, registry, Datasets, $routeParams) {
+.controller('datasetCtrl', ['$scope', 'Datasets', '$routeParams', function($scope, Datasets, $routeParams) {
 
     var createMultiView = function(name, views, dataset, state, index) {
         // remove existing multiview if present
@@ -95,9 +95,9 @@ angular.module('ted.datasets', ['ngRoute'])
     function createDatasetView(resource, index, array) {
 
         var rawArray = $scope.dataset.git.split('/');
-        // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
+         var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
         //change this for the live version
-        var rawUrl = $scope.dataset.git + '/' + resource.path;
+       // var rawUrl = $scope.dataset.git + '/' + resource.path;
         console.log(rawUrl);
         resource.fields = _.map(resource.schema.fields, function(field) {
             if (field.name && !field.id) {
@@ -128,9 +128,9 @@ angular.module('ted.datasets', ['ngRoute'])
 
         for (var i = 0; i < rlines.length; i++) {
             var rawArray = rlines[i].split('/');
-            // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+             var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
-            var rawUrl = rlines[i] + '/datapackage.json';
+          //  var rawUrl = rlines[i] + '/datapackage.json';
             var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
             promise1.then(function(response1) {
                 var dataset = response1.data;
@@ -147,7 +147,7 @@ angular.module('ted.datasets', ['ngRoute'])
 
                     console.log($scope.dataset);
                     $scope.dataset.resources.forEach(createDatasetView);
-                    $scope.readmeLink = 'testpackages/bond-yields-uk-10y/README.md';
+                    $scope.readmeLink ='https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/README.md';
 
 
                 }
