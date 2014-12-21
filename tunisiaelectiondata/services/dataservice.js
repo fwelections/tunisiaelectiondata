@@ -7,7 +7,6 @@ angular.module('ted.dataService', [])
             list: function() {
                 var deferred = $q.defer(),
                     httpPromise = $http.get(registry);
-                console.log();
                 httpPromise.then(function(response) {
 
                     deferred.resolve(response);
@@ -21,11 +20,14 @@ angular.module('ted.dataService', [])
             },
             readPackage: function(pack, repo) {
                     var deferred = $q.defer(),
-                        //var packageUrl= package + 
                         httpPromise = $http.get(pack);
 
                     httpPromise.then(function(response) {
-                        var newo = response.data.git = repo;
+            var rawArray = repo.split('/');
+
+                         response.data.git = repo;
+                        response.data.readme= 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/README.md';
+                        
                         deferred.resolve(response);
                         return response.data;
 
