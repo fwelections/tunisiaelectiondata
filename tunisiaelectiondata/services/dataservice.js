@@ -1,43 +1,43 @@
 'use strict';
 
 angular.module('ted.dataService', [])
-.factory('Datasets', function ($q, $http) {
-    var that = this ;
+    .factory('Datasets', function($q, $http, registry) {
+        var that = this;
         return {
-                list: function () {
+            list: function() {
                 var deferred = $q.defer(),
-                    httpPromise = $http.get('list.txt');
+                    httpPromise = $http.get(registry);
+                console.log();
+                httpPromise.then(function(response) {
 
-                httpPromise.then(function (response) {
-                    
                     deferred.resolve(response);
-                   
-                
-                }, function (error) {
+
+
+                }, function(error) {
                     console.error(error);
                 });
 
                 return deferred.promise;
             },
-            readPackage :function(pack,repo){
-                var deferred = $q.defer(),
-                         //var packageUrl= package + 
-                httpPromise = $http.get(pack);
+            readPackage: function(pack, repo) {
+                    var deferred = $q.defer(),
+                        //var packageUrl= package + 
+                        httpPromise = $http.get(pack);
 
-                httpPromise.then(function (response) {      
-                var newo= response.data.git=repo;
-                 deferred.resolve(response);  
-                 return response.data;
-                   
-                }, function (error) {
-                    console.error(error);
-                });
+                    httpPromise.then(function(response) {
+                        var newo = response.data.git = repo;
+                        deferred.resolve(response);
+                        return response.data;
 
-                return deferred.promise; 
+                    }, function(error) {
+                        console.error(error);
+                    });
 
-            }
-            //
-            
-            
+                    return deferred.promise;
+
+                }
+                //
+
+
         };
     });

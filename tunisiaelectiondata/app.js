@@ -18,4 +18,4 @@ config(['$routeProvider','$locationProvider','markedProvider',function($routePro
 
 }]);
 
-ted.value('registry', 'https://raw.githubusercontent.com/radproject/datasets-registry/master/list.txt');
+ted.value('registry', 'https://raw.githubusercontent.com/radproject/datasets-registry/master/catalog.txt');
