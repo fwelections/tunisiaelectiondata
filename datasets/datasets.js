@@ -19,18 +19,20 @@ angular.module('ted.datasets', ['ngRoute'])
     var promise = Datasets.list();
     promise.then(function(response) {
         var rlines = response.data.split(/\n/);
-
         for (var i = 0; i < rlines.length; i++) {
+           
             var rawArray = rlines[i].split('/');
-            var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+            var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
           //  var rawUrl = rlines[i] + '/datapackage.json';
+            if(rawArray[3] != undefined){
             var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
             promise1.then(function(response1) {
                 var dataset = response1.data;
                 $scope.datasets.push(response1.data);
 
             });
+        }
         }
 
 
@@ -95,10 +97,9 @@ angular.module('ted.datasets', ['ngRoute'])
     function createDatasetView(resource, index, array) {
 
         var rawArray = $scope.dataset.git.split('/');
-         var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
+         var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
         //change this for the live version
        // var rawUrl = $scope.dataset.git + '/' + resource.path;
-        console.log(rawUrl);
         resource.fields = _.map(resource.schema.fields, function(field) {
             if (field.name && !field.id) {
                 field.id = field.name;
@@ -121,43 +122,41 @@ angular.module('ted.datasets', ['ngRoute'])
 
     }
     $scope.datasets = [];
-
+    $scope.dataset = null;
     var promise = Datasets.list();
     promise.then(function(response) {
         var rlines = response.data.split(/\n/);
-
+        
         for (var i = 0; i < rlines.length; i++) {
             var rawArray = rlines[i].split('/');
-             var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+             var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
           //  var rawUrl = rlines[i] + '/datapackage.json';
+             if(rawArray[3] != undefined){
             var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
             promise1.then(function(response1) {
                 var dataset = response1.data;
                 $scope.datasets.push(response1.data);
-
-                $scope.dataset = null;
-                for (var d in $scope.datasets) {
-
+                 for (var d=0; d<$scope.datasets.length; d++) {
                     if ($scope.datasets[d].name == $routeParams.name)
                         $scope.dataset = $scope.datasets[d];
                 }
                 if ($scope.dataset != null) {
-                    console.log('found');
 
-                    console.log($scope.dataset);
                     $scope.dataset.resources.forEach(createDatasetView);
-                    $scope.readmeLink ='https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/README.md';
 
 
                 }
+                  });
+        }}
+          });
+       
+
+         
+        
 
 
-            });
-        }
-
-
-    });
+  
 
 
 
