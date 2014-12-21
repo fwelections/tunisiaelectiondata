@@ -41,7 +41,7 @@ angular.module('ted.datasets', ['ngRoute'])
     //
 }])
 
-.controller('datasetCtrl', ['$scope', 'Datasets', '$routeParams', function($scope, Datasets, $routeParams) {
+.controller('datasetCtrl', ['$scope', 'Datasets', '$routeParams','$sce', function($scope, Datasets, $routeParams,$sce) {
 
     var createMultiView = function(name, views, dataset, state, index) {
         // remove existing multiview if present
@@ -121,6 +121,8 @@ angular.module('ted.datasets', ['ngRoute'])
 
 
     }
+  
+
     $scope.datasets = [];
     $scope.dataset = null;
     var promise = Datasets.list();
@@ -139,7 +141,8 @@ angular.module('ted.datasets', ['ngRoute'])
                 $scope.datasets.push(response1.data);
                  for (var d=0; d<$scope.datasets.length; d++) {
                     if ($scope.datasets[d].name == $routeParams.name)
-                        $scope.dataset = $scope.datasets[d];
+                       $scope.dataset  = $scope.datasets[d];
+                     $scope.readme=  $sce.trustAsResourceUrl($scope.dataset.readme);
                 }
                 if ($scope.dataset != null) {
 

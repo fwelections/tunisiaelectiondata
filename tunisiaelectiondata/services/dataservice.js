@@ -25,9 +25,8 @@ angular.module('ted.dataService', [])
                     httpPromise.then(function(response) {
             var rawArray = repo.split('/');
 
-                         response.data.git = repo;
+                        response.data.git = repo;
                         response.data.readme= 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/README.md';
-                        
                         deferred.resolve(response);
                         return response.data;
 
