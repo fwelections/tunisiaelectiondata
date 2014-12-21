@@ -14,7 +14,7 @@ angular.module('ted.datasets', ['ngRoute'])
         });
 }])
 
-.controller('datasetsCtrl', ['$scope', 'registry', 'Datasets', '$rootScope', function($scope, registry, Datasets, $rootScope) {
+.controller('datasetsCtrl', ['$scope', 'registry', 'Datasets', function($scope, registry, Datasets) {
     $scope.datasets = [];
     var promise = Datasets.list();
     promise.then(function(response) {
@@ -29,7 +29,7 @@ angular.module('ted.datasets', ['ngRoute'])
             promise1.then(function(response1) {
                 var dataset = response1.data;
                 $scope.datasets.push(response1.data);
-                $rootScope.datasets = $scope.datasets;
+
             });
         }
 
@@ -39,9 +39,9 @@ angular.module('ted.datasets', ['ngRoute'])
     //
 }])
 
-.controller('datasetCtrl', ['$scope', 'registry', 'Datasets', '$rootScope', '$routeParams', function($scope, registry, Datasets, $rootScope, $routeParams) {
+.controller('datasetCtrl', ['$scope', 'registry', 'Datasets', '$routeParams', function($scope, registry, Datasets, $routeParams) {
 
-    var createMultiView = function(name,views, dataset, state, index) {
+    var createMultiView = function(name, views, dataset, state, index) {
         // remove existing multiview if present
         var reload = false;
         if (window.multiView) {
@@ -78,10 +78,10 @@ angular.module('ted.datasets', ['ngRoute'])
                 model: dataset
             })
         }];
-         
-  
+
+
         //TODO  : add views in package definition
-        
+
         var multiView = new recline.View.MultiView({
             model: dataset,
             el: $el,
@@ -97,7 +97,7 @@ angular.module('ted.datasets', ['ngRoute'])
         var rawArray = $scope.dataset.git.split('/');
         // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
         //change this for the live version
-        var rawUrl =  $scope.dataset.git + '/' + resource.path;
+        var rawUrl = $scope.dataset.git + '/' + resource.path;
         console.log(rawUrl);
         resource.fields = _.map(resource.schema.fields, function(field) {
             if (field.name && !field.id) {
@@ -110,61 +110,54 @@ angular.module('ted.datasets', ['ngRoute'])
             backend: 'csv',
         });
         dataset.fetch().done(function() {
-            
-            createMultiView(resource.name,resource.views, dataset, null, index);
-             dataset.query({size: dataset.recordCount});
+
+            createMultiView(resource.name, resource.views, dataset, null, index);
+            dataset.query({
+                size: dataset.recordCount
+            });
         });
-        
-        
 
-    }
-
-    $scope.dataset = null;
-    for (var d in $rootScope.datasets) {
-
-        if ($rootScope.datasets[d].name == $routeParams.name)
-            $scope.dataset = $rootScope.datasets[d];
-    }
-    if ($scope.dataset != null) {
-        console.log('found');
-        
-        console.log($scope.dataset);
-        $scope.dataset.resources.forEach(createDatasetView);
-        $scope.readmeLink ='testpackages/bond-yields-uk-10y/README.md'; 
-         
-        //         for (var i=0; i<$scope.dataset.resources.length ; i++){
-        //        
-        //       var resource = $scope.dataset.resources[i];
-        //            var rawArray = $scope.dataset.git.split('/');
-        //        // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
-        //         //change this for the live version
-        //         var rawUrl  =  '../' + $scope.dataset.git + '/' + resource.path;
-        //             console.log(rawUrl);
-        //             resource.fields = _.map(resource.schema.fields, function(field) {
-        //                if (field.name && !field.id) {
-        //                field.id = field.name;
-        //                }
-        //                return field;
-        //                });
-        //             var dataset = new recline.Model.Dataset({
-        //                 url:rawUrl,
-        //                 backend: 'csv',        
-        //             });
-        //             
-        //             dataset.fetch().done(function() {
-        //                createMultiView(dataset,null,i);
-        //                // multiViewGridView.visible=true;
-        //                  //         multiViewGridView.render(); 
-        //            
-        //       
-        //
-        //        });
-        //            
-        // 
-        //}
 
 
     }
+    $scope.datasets = [];
+
+    var promise = Datasets.list();
+    promise.then(function(response) {
+        var rlines = response.data.split(/\n/);
+
+        for (var i = 0; i < rlines.length; i++) {
+            var rawArray = rlines[i].split('/');
+            // var rawUrl = 'https://raw.githubusercontent.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
+            //change this for the live version
+            var rawUrl = rlines[i] + '/datapackage.json';
+            var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
+            promise1.then(function(response1) {
+                var dataset = response1.data;
+                $scope.datasets.push(response1.data);
+
+                $scope.dataset = null;
+                for (var d in $scope.datasets) {
+
+                    if ($scope.datasets[d].name == $routeParams.name)
+                        $scope.dataset = $scope.datasets[d];
+                }
+                if ($scope.dataset != null) {
+                    console.log('found');
+
+                    console.log($scope.dataset);
+                    $scope.dataset.resources.forEach(createDatasetView);
+                    $scope.readmeLink = 'testpackages/bond-yields-uk-10y/README.md';
+
+
+                }
+
+
+            });
+        }
+
+
+    });
 
 
 
