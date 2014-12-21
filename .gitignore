@@ -4,5 +4,5 @@ node_modules/
 tmp
 .DS_Store
 .idea
-app/testpackages/
-app/list.txt
+tunisiaelectiondata/testpackages/
+tunisiaelectiondata/list.txt

@@ -25,7 +25,12 @@ body{
   height: 500px;
  }
 
-
+.issue {
+font-size: 12px;
+margin-top: 5px;
+margin-bottom: 5px;
+border-color: #fff;
+}
 .navmenu-default, .navbar-default .navbar-offcanvas{
   font-family: 'Raleway', sans-serif;
   background-color: #FFFFFF;
