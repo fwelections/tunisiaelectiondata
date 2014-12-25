@@ -19,14 +19,16 @@
                         <a href="{{source.web}}" target="_blank">{{source.name}}</a>
                      </div>
                   </div>
+                   <br/>
                    <div class="licence">
                    <span>License:</span> {{dataset.license}}
                    </div>
+                   <br/>
                    <div class="git">
                    <span>Repository:</span> <a href="{{dataset.git}}" >{{dataset.git}}</a><br/>
                     <a href="{{dataset.git}}/issues/new" class="btn btn-danger issue" > Report an issue </a>   
                    </div>
-                   
+                   <br/>
                   <div class="keywords">
                      <ul>
                         <li ng-repeat="keyword in dataset.keywords "><span class="label bg-red">{{keyword}}</span></li>
