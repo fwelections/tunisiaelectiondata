@@ -21,7 +21,11 @@
                   </div>
                    <br/>
                    <div class="licence">
-                   <span>License:</span> {{dataset.license}}
+                   <span>License(s):</span>
+                       <ul>
+                           <li ng-repeat=" license in dataset.licenses" class="resourcesList"> <a href="{{license.url}}" target="_blank">{{license.name}}</a></li>
+                       </ul>
+                      
                    </div>
                    <br/>
                    <div class="git">

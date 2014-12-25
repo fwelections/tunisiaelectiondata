@@ -5,8 +5,12 @@ angular.module('ted.dataService', [])
         var that = this;
         return {
             list: function() {
+                    delete $http.defaults.headers.common['X-Requested-With'];
+
                 var deferred = $q.defer(),
+                    
                     httpPromise = $http.get(registry);
+                    
                 httpPromise.then(function(response) {
 
                     deferred.resolve(response);
