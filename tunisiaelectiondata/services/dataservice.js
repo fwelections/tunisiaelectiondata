@@ -27,6 +27,12 @@ angular.module('ted.dataService', [])
 
                         response.data.git = repo;
                         response.data.readme= 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/README.md';
+                        for (var i = 0; i<response.data.resources.length;i++)
+                        {
+                            response.data.resources[i].download = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + response.data.resources[i].path;
+                        
+                        
+                        }
                         deferred.resolve(response);
                         return response.data;
 
