@@ -5,7 +5,7 @@ var ted= angular.module('ted', [
   'ngRoute',
   'jm.i18next',
   'hc.marked',
-  'ted.par14',
+  'ted.stories',
   'ted.datasets',
   'ted.dataService'
 ]).

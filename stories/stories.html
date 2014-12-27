@@ -1,0 +1,35 @@
+<div class="row inner-partial bgblack">
+<div class="sidebar col-md-3" style="right: 0px; left: 0px; display: block;">
+					<div class="inner-wrapper vcenter-wrapper">
+						<div class="side-content vcenter">
+							<div class="title">
+								<span class="second-part">{{election.year}}</span>
+								<span>{{election.name}}</span>
+							</div>
+							<p>{{election.des}} </p>
+
+					
+						</div>
+					</div>
+				</div>
+
+<div class="main-stories col-md-9"> 
+			
+        <div ng-repeat=" map in election.stories" class="story-item story-hover-3 inview-animate inview-fadeleft" style="background-image: url('{{map.image}}');">
+			<a href="{{map.id}}">
+				 
+
+				<!-- Item Overlay -->	
+				<div class="story-overlay vcenter-wrapper">
+					<div class="overlay-texts vcenter">
+						<h3 class="title">{{map.title}}</h3>
+						<h4 class="subtitle">{{map.subtitle}}</h4>
+					</div>
+				</div>
+				<!-- /Item Overlay -->	
+			</a>
+		</div> 
+   
+
+</div>
+</diV>
