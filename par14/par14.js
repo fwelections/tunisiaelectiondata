@@ -9,7 +9,13 @@ angular.module('ted.par14', ['ngRoute'])
   });
 }])
 
-.controller('par14Ctrl', [function() {
-	console.log("hello parlialent");
+.controller('par14Ctrl', ['Maps','$scope', function(Maps,$scope) {
+	
+    var promise = Maps.listAll('par14','en');
+    promise.then(function(response) {
+      
+         console.log(response.data);
+        $scope.maps = response.data;
+    });
 
 }]);

@@ -5,8 +5,7 @@ angular.module('ted.dataService', [])
         var that = this;
         return {
             list: function() {
-                    delete $http.defaults.headers.common['X-Requested-With'];
-
+ 
                 var deferred = $q.defer(),
                     
                     httpPromise = $http.get(registry);
@@ -51,4 +50,36 @@ angular.module('ted.dataService', [])
 
 
         };
-    });
+    })
+
+ .factory('Maps', function($q, $http) {
+        
+    return {
+        listAll: function(election,language){
+            
+            if( language === undefined)
+                language= 'en';
+            if (election === undefined)
+                election = 'pre14';
+            
+            var fileToRead= 'maps/' + language + '/' + election  + '.json';
+              var deferred = $q.defer(),
+                    
+                    httpPromise = $http.get(fileToRead);
+                    
+                httpPromise.then(function(response) {
+
+                    deferred.resolve(response);
+
+
+                }, function(error) {
+                    console.error(error);
+                });
+
+                return deferred.promise;
+        }
+        
+        
+    };
+               
+});
