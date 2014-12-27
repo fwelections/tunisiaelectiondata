@@ -1,0 +1,47 @@
+{
+   "name":"Parliamentary Elections",
+   "year":"2014",
+   "des":"TODO",
+   "stories":[
+      {
+         "id":1,
+         "title":"Results by gender",
+         "subtitle":"Visualizing the total number of seats won by females candidates in each  electoral district and number of female representatives by party",
+         "mapid":"tunisia.k73jc1n0",
+         "image":"assets/img/back1.png",
+         "readme":"todo"
+      },
+      {
+         "id":2,
+         "title":"Results by party",
+         "subtitle":"Visualizing Nida Tounes results",
+         "mapid":"tunisia.k73m3p3b",
+         "image":"assets/img/back2.png",
+         "readme":"todo"
+      },
+       {
+         "id":3,
+         "title":"Results by party",
+         "subtitle":"Visualizing Ennahdha results",
+         "mapid":"tunisia.k73ogne0",
+         "image":"assets/img/back3.png",
+         "readme":"todo"
+      },
+        {
+         "id":4,
+         "title":"Results by party",
+         "subtitle":"Visualizing UPL results",
+         "mapid":"tunisia.k740b8f",
+         "image":"assets/img/back4.png",
+         "readme":"todo"
+      },
+       {
+         "id":5,
+         "title":"Results by party",
+         "subtitle":"Visualizing Popular Front results",
+         "mapid":"tunisia.k740mp6j",
+         "image":"assets/img/back5.png",
+         "readme":"todo"
+      }
+   ]
+}
