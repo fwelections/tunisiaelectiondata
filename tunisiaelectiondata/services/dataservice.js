@@ -52,7 +52,7 @@ angular.module('ted.dataService', [])
         };
     })
 
- .factory('Maps', function($q, $http) {
+ .factory('Stories', function($q, $http) {
         
     return {
         listAll: function(election,language){
@@ -60,9 +60,9 @@ angular.module('ted.dataService', [])
             if( language === undefined)
                 language= 'en';
             if (election === undefined)
-                election = 'pre14';
+                election = 'pre';
             
-            var fileToRead= 'maps/' + language + '/' + election  + '.json';
+            var fileToRead= 'stories/resources/' + language + '/' + election  + '.json';
               var deferred = $q.defer(),
                     
                     httpPromise = $http.get(fileToRead);
@@ -70,6 +70,36 @@ angular.module('ted.dataService', [])
                 httpPromise.then(function(response) {
 
                     deferred.resolve(response);
+
+
+                }, function(error) {
+                    console.error(error);
+                });
+
+                return deferred.promise;
+        },
+         getStory: function(election,story,language){
+            
+            if( language === undefined)
+                language= 'en';
+            if (election === undefined)
+                election = 'pre';
+            
+            var fileToRead= 'stories/resources/' + language + '/' + election  + '.json';
+              var deferred = $q.defer(),
+                    
+                    httpPromise = $http.get(fileToRead);
+                    
+                httpPromise.then(function(response) {
+                    response.data.story = "{}";
+                    for (var i = 0;i<response.data.stories.length;i++){
+                        
+                        if (response.data.stories[i].id==story)
+                            response.data.story = response.data.stories[i];
+                    
+                    }
+                    deferred.resolve(response);
+                    return  response.data;
 
 
                 }, function(error) {
