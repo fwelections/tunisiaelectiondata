@@ -5,6 +5,7 @@ var ted= angular.module('ted', [
   'ngRoute',
   'jm.i18next',
   'hc.marked',
+  'leaflet-directive',    
   'ted.stories',
   'ted.datasets',
   'ted.dataService'
