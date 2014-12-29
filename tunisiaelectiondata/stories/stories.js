@@ -67,7 +67,7 @@ angular.module('ted.stories', ['ngRoute'])
                     name: 'mapbox',
                     type: 'xyz',
                     url: 'http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}',
-                    layerOptions: {
+                    layerOptions: { 
                         apikey: 'pk.eyJ1IjoidHVuaXNpYSIsImEiOiJwelVyLW1JIn0.mBhvyh8Ui8NzOq8Bpzl83g',
                         mapid: response.data.story.mapid
                     }
