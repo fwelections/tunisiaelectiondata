@@ -29,31 +29,7 @@ angular.module('ted.stories', ['ngRoute'])
 
     }])
     .controller('storyCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
-        $scope.blayer = {
-            name: 'mapbox',
-            type: 'xyz',
-            url: 'http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}',
-            layerOptions: {
-                apikey: 'pk.eyJ1IjoidHVuaXNpYSIsImEiOiJwelVyLW1JIn0.mBhvyh8Ui8NzOq8Bpzl83g',
-                mapid: 'tunisia.52cc564a'
-            }
-        };
-
-        angular.extend($scope, {
-             tunis: {
-                lat: 35.4920,
-                lng: 11.6592,
-                zoom: 8
-            },
-            layers: {
-                baselayers: {
-                    mbase: $scope.blayer
-                }
-            },
-            defaults: {
-                scrollWheelZoom: false
-            }
-        });
+      
         if ($routeParams.election == undefined)
         // default stories are  presidential elections ones ; 
             $routeParams.election = 'pre';
@@ -63,21 +39,12 @@ angular.module('ted.stories', ['ngRoute'])
                 console.log('story not available ')
 
             else {
-                $scope.nlayer = {
-                    name: 'mapbox',
-                    type: 'xyz',
-                    url: 'http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}',
-                    layerOptions: { 
-                        apikey: 'pk.eyJ1IjoidHVuaXNpYSIsImEiOiJwelVyLW1JIn0.mBhvyh8Ui8NzOq8Bpzl83g',
-                        mapid: response.data.story.mapid
-                    }
-                };
-                var baselayers = $scope.layers.baselayers;
-                delete baselayers['mbase'];
-                baselayers['another'] = $scope.nlayer;
+                
+               $scope.story = response.data.story;
+               var mapOptions= {scrollWheelZoom: false,shareControl:true}
 
-
-
+               L.mapbox.accessToken = 'pk.eyJ1IjoidHVuaXNpYSIsImEiOiJwelVyLW1JIn0.mBhvyh8Ui8NzOq8Bpzl83g';
+               L.mapbox.map('map', $scope.story.mapid, mapOptions);
 
             }
 
