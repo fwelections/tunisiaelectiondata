@@ -34,14 +34,6 @@
          "mapid":"tunisia.k740b8f9",
          "image":"assets/img/back4.png",
          "readme":"todo"
-      },
-       {
-         "id":5,
-         "title":"Results by party",
-         "subtitle":"Visualizing Popular Front results",
-         "mapid":"tunisia.k740mp6j",
-         "image":"assets/img/back5.png",
-         "readme":"todo"
       }
    ]
 }
