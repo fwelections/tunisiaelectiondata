@@ -7,7 +7,8 @@ var ted= angular.module('ted', [
   'hc.marked',
   'ted.stories',
   'ted.datasets',
-  'ted.dataService'
+  'ted.dataService',
+    'ted.community'
 ]).
 config(['$routeProvider','$locationProvider','markedProvider',function($routeProvider, $locationProvider,markedProvider) {
 
