@@ -1,0 +1,1922 @@
+[
+  {
+    "FIELD1":"",
+    "name":"INN01",
+    "theme":"Team Management ",
+    "Title":"Mourakiboun's Network Scheme",
+    "Size":"1276*1199",
+    "Timeline":"-",
+    "tags":"Training Material",
+    "Language":"ar + fr "
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG00",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Mourakiboun's Manual Cover",
+    "Size":"A4",
+    "Timeline":"-",
+    "tags":"Training Material",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG01",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : former Art. 6 - Ensuring Voluntary & Safe Voter Registration",
+    "Size":"876*539",
+    "Timeline":"05/14",
+    "tags":"Advocacy; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG02",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : former Art. 23 - Ensuring Women Representation ",
+    "Size":"1106*624",
+    "Timeline":"05/14",
+    "tags":"Advocacy; Constitution; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG03",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : former Art. 23 - Ensuring Youth Representation ",
+    "Size":"1106*624",
+    "Timeline":"05/14",
+    "tags":"Advocacy; Constitution",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG04",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : former Art. 82+97 - Ensuring Financial Transprency ",
+    "Size":"Video",
+    "Timeline":"05/14",
+    "tags":"Advocacy; Presidential; Expenses",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG05",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : formet Art. 142 - Ensuring counting process transparency (open data)",
+    "Size":"900*556",
+    "Timeline":"05/14",
+    "tags":"Advocacy; Open-Data",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG06a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 7 - Voluntary & Safe Voter Registration (arabic)",
+    "Size":"907*493",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG06f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 7 - Voluntary & Safe Voter Registration (french)",
+    "Size":"907*493",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG07a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 24 - Parity (arabic)",
+    "Size":"867*737",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Constitution; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG07f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 24 - Parity (french)",
+    "Size":"867*737",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Constitution; Women",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG08a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 25 - Youth Participation (arabic)",
+    "Size":"1920*1080",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Constitution",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG08f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 25 - Youth Participation (french)",
+    "Size":"1020*527",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Constitution",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG09a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 98 - Financial Transparency (arabic)",
+    "Size":"900*1134",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Legislative; Expenses",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG09f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 98 - Financial Transparency (french)",
+    "Size":"900*1134",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Legislative; Expenses",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG10a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 98 - Financial Transparency (arabic)",
+    "Size":"Video",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Presidential; Expenses",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG10f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 98 - Financial Transparency (french)",
+    "Size":"Video",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Presidential; Expenses",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG11a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 144 - Election Counting Transparency and Open-data",
+    "Size":"900*556",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Open-Data",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG11f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Critics : Art. 144 - Election Counting Transparency and Open-data",
+    "Size":"900*556",
+    "Timeline":"06/14",
+    "tags":"Advocacy; Open-Data",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG12a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Election Mode (arabic)",
+    "Size":"1252*969",
+    "Timeline":"07/14",
+    "tags":"Training Material; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG12f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Election Mode (french)",
+    "Size":"1252*969",
+    "Timeline":"07/14",
+    "tags":"Training Material; Legislative",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG13a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Candidacy Disputes (arabic)",
+    "Size":"900*686",
+    "Timeline":"08/14",
+    "tags":"Training Material; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG13f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Candidacy Disputes (arabic)",
+    "Size":"900*686",
+    "Timeline":"08/14",
+    "tags":"Training Material; Legislative",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG14",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Polling Stations Membership Candidacy and Disputes",
+    "Size":"900*751",
+    "Timeline":"08/14",
+    "tags":"Training Material",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG15a",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Campaign on TV and Radio - The Rules (arabic)",
+    "Size":"1417*732",
+    "Timeline":"10/14",
+    "tags":"Campaign; Training Material; ",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG15f",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Training : Legislative Campaign on TV and Radio - The Rules (french)",
+    "Size":"1417*732",
+    "Timeline":"10/14",
+    "tags":"Campaign; Training Material; ",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"LEG16",
+    "theme":"Legal & Reglementary Framework",
+    "Title":"Advocacy : Improved Version of the Ballot Paper to avoid Confusion",
+    "Size":"2481*1754",
+    "Timeline":"10/14",
+    "tags":"Advocacy; Legislative",
+    "Language":"-"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG01a",
+    "theme":"Voter Registration",
+    "Title":"Training : Voter Registration Calendar (arabic)",
+    "Size":"850*524",
+    "Timeline":"06/14",
+    "tags":"Training-Material; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG01f",
+    "theme":"Voter Registration",
+    "Title":"Training : Voter Registration Calendar (french)",
+    "Size":"850*524",
+    "Timeline":"06/14",
+    "tags":"Training-Material; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG02a",
+    "theme":"Voter Registration",
+    "Title":"Training : Voter Registration through USSD (arabic)",
+    "Size":"1102*945",
+    "Timeline":"06/14",
+    "tags":"Training-Material; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG02f",
+    "theme":"Voter Registration",
+    "Title":"Training : Voter Registration through USSD (french)",
+    "Size":"1102*827",
+    "Timeline":"06/14",
+    "tags":"Training-Material; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG03",
+    "theme":"Voter Registration",
+    "Title":"Insights : Reminder - Volunteer Registered Turnout in 2011 Election",
+    "Size":"680*550",
+    "Timeline":"06/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG04a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Reminder - Women Registration for 2011 Election (arabic)",
+    "Size":"1024*520",
+    "Timeline":"06/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG04f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Reminder - Women Registration for 2011 Election (french)",
+    "Size":"1024*520",
+    "Timeline":"06/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG05a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 3 - Total Registered Voters; compared to 2011 (arabic)",
+    "Size":"900*600",
+    "Timeline":"06/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG05f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 3 - Total Registered Voters; compared to 2011 (french)",
+    "Size":"900*600",
+    "Timeline":"06/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"de"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG06a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 14 - Total Registered Voters; compared to 2011 (arabic)",
+    "Size":"1260*776",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG06f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 14 - Total Registered Voters; compared to 2011 (french)",
+    "Size":"1260*776",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG07",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 18 - Total Registered Voters; compared to 2011 (arabic)",
+    "Size":"1100*737",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG08",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 18 - Total Registered Voters through USSD Nationwide",
+    "Size":"1100*737",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG09a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 24 - Total Registered Voters through USSD Nationwide (arabic)",
+    "Size":"1100*737",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG09f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 24 - Total Registered Voters through USSD Nationwide (french)",
+    "Size":"1100*737",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG10a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 24 - Total Registered Voters; compared to 2011 (arabic)",
+    "Size":"1100*738",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG10f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 24 - Total Registered Voters; compared to 2011 (french)",
+    "Size":"1100*739",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG11a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 28 (D-3) - Total Registered Voters; compared to 2011 (arabic)",
+    "Size":"1100*740",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG11f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Day 28 (D-3) - Total Registered Voters; compared to 2011 (french)",
+    "Size":"1100*741",
+    "Timeline":"07/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG12a",
+    "theme":"Voter Registration",
+    "Title":"Advocacy : Extending Voter Registration Process with no impact on overall calendar (arabic)",
+    "Size":"1077*646",
+    "Timeline":"07/14",
+    "tags":"Advocacy; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG12f",
+    "theme":"Voter Registration",
+    "Title":"Advocacy : Extending Voter Registration Process with no impact on overall calendar (french)",
+    "Size":"1077*646",
+    "Timeline":"07/14",
+    "tags":"Advocacy; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG13a",
+    "theme":"Voter Registration",
+    "Title":"Training : Online Registration through Mourakiboun's platform (arabic)",
+    "Size":"900*600",
+    "Timeline":"07/14",
+    "tags":"Training Material; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG13f",
+    "theme":"Voter Registration",
+    "Title":"Training : Online Registration through Mourakiboun's platform (french)",
+    "Size":"900*600",
+    "Timeline":"07/14",
+    "tags":"Training Material; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG14a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Total Registered Voters Abroad (arabic)",
+    "Size":"900*600",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG14f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Total Registered Voters Abroad (french)",
+    "Size":"900*600",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG15a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Cumulative Voter Registration by Age Group (arabic)",
+    "Size":"900*600",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG15f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Cumulative Voter Registration by Age Group (french)",
+    "Size":"900*600",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG16a",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Total Registered Voters among Youth : Nationwide vs Abroad (arabic)",
+    "Size":"950*522",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"REG16f",
+    "theme":"Voter Registration",
+    "Title":"Insights : Phase 2 : Total Registered Voters among Youth : Nationwide vs Abroad (french)",
+    "Size":"950*522",
+    "Timeline":"08/14",
+    "tags":"Insights; Voter-Registration",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"CAMP01",
+    "theme":"Election Campaign Observation",
+    "Title":"Presidential Candidates : Endorsements from the ex- NCA visualized ",
+    "Size":"1361*1162",
+    "Timeline":"09/14",
+    "tags":"Presidential; Candidacy",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"CAMP02",
+    "theme":"Election Campaign Observation",
+    "Title":"Presidential Candidates : Endorsements from the ex- NCA detailed",
+    "Size":"1213*780",
+    "Timeline":"09/14",
+    "tags":"Presidential; Candidacy",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"SMM01",
+    "theme":"Social Media Monitoring",
+    "Title":"Presidential Round Off : Large Regional Pages Affinities at a glance",
+    "Size":"721*539",
+    "Timeline":"12/14",
+    "tags":"Campaign; Social-Media",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"SMM02",
+    "theme":"Social Media Monitoring",
+    "Title":"Presidential Round Off : Large Regional Pages Affinities - Audience vs. Engagement rate",
+    "Size":"721*539",
+    "Timeline":"12/14",
+    "tags":"Campaign; Social-Media",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"RES01",
+    "theme":"Election Data Analysis",
+    "Title":"Legislative : Total Cancelled Ballots compared to 2011 Election",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT101a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Mourakiboun's Observer Entry Allowance (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT101e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Mourakiboun's Observer Entry Allowance (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT102a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Polling Stations Opening Time (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT102e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Polling Stations Opening Time (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT103a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Availability of Election Material (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT103e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Availability of Election Material (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT104a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : %PC with Women as Officers (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT104e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : %PC with Women as Officers (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative; Women",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT105a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : %PC with Women as Officers - detailed (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT105e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : %PC with Women as Officers - detailed (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative; Women",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT106a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Overall Evaluation as per Regulations  (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT106e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Opening Process : Overall Evaluation as per Regulations  (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT107",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Checking Voter Identity ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT108",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Accepting only allowed Voter ID Documents ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT109",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Additional Voter Lists ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT110",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Proper Stamping of the Ballot Paper",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT111",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Ensuring Vote Secrecy ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT112",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Accompanying Voter; Unallowed Cases",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT113",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Smoothness of the Process",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT114",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Presence of Parties and Lists Candidates",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT115",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voting Process : Overall Evaluation as per Regulations",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT116a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voter Turnout : At 11:15 (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT116e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voter Turnout : At 11:15 (en)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT117",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Voter Turnout : Final ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT118a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Complaints filled by the Candidates' Observers (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT118f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Complaints filled by the Candidates' Observers (fr)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT119",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Ennahdha",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT120",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Nidaa Tounes",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT121",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Front Populaire",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT122",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; CPR",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT123",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Al Jomhoury ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT124",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; UPL",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT125",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Attayar ",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT126",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; Tayar Al-Mahaba",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT127a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; 8 Parties at a Glance (ar)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT127f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : Estimate Results Nationwide; 8 Parties at a Glance (fr)",
+    "Size":"1920*1080",
+    "Timeline":"10/14",
+    "tags":"Insights; Legislative",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT128",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Legislative EDay - Counting Process : PVT Accuracy after Official Results were released",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Legislative",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"",
+    "theme":"",
+    "Title":"",
+    "Size":"",
+    "Timeline":"",
+    "tags":"",
+    "Language":""
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT201",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : Mourakiboun's Observer Entry Allowance ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT202",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : Polling Stations Opening Time ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT203",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : Availability of Election Material ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT204",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : %PC with Women as Officer",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT205",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : %PC with Women as Officers - detailed ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT206",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : Overall Evaluation as per Regulations",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT207",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Opening Process : Overall Performance compared to Legislative ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT208",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Properly inking Voter's Finger ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT209",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Checking Voter Identity ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT210",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Accepting only allowed Voter ID Documents ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT211",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Additional Voter Lists ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT212",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Proper Stamping of the Ballot Paper",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT213",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Ensuring Vote Secrecy ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT214",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Accompanying Voter; Unallowed Cases",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT215",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Smoothness of the Process",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT216",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Violence and Intimidation reported",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT217",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Presence of Parties and Lists Candidates",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT218",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Overall Evaluation as per Regulations",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT219",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voting Process : Overall Performance compared to Legislative ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT220",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voter Turnout : At 11:00 ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT221",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voter Turnout : At 15:00",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT222",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voter Turnout : Final ",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT223",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Voter Turnout : All Over the Day (Progress)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT224a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Overall Evaluation as per Regulations (ar)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT224e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Overall Evaluation as per Regulations (en)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT225a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Complaints filled by Candidates Observers (ar)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT225e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Complaints filled by Candidates Observers (en)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT226a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Two First (ar)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT226e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Two First (en)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT226f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Two First (fr)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT227e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Three After (ar)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT227e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Three After (en)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT227f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Three After (fr)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT228a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Five First (ar)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT228e",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Five First (en)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"en"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT228f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : Five First (fr)",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT229",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (1/2) EDay - Counting Process : Estimate Results Nationwide : All the Candidates",
+    "Size":"1920*1080",
+    "Timeline":"11/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"",
+    "theme":"",
+    "Title":"",
+    "Size":"",
+    "Timeline":"",
+    "tags":"",
+    "Language":""
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT301a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Mourakiboun's Observer Entry Allowance (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT301f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Mourakiboun's Observer Entry Allowance (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT302a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Polling Stations Opening Time (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT302f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Polling Stations Opening Time (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT303a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Availability of Election Material (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT303f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Availability of Election Material (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT304a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : %PC with Women as Officer (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Legislative; EDay; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT304f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : %PC with Women as Officer (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Legislative; EDay; Women",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT305a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : %PC with Women as Officers - detailed (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Legislative; EDay; Women",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT305f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : %PC with Women as Officers - detailed (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Legislative; EDay; Women",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT306a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Overall Evaluation as per Regulations (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT306f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Opening Process : Overall Evaluation as per Regulations (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT307a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Properly inking Voter's Finger (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT307f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Properly inking Voter's Finger (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT308a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Checking Voter Identity (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT308f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Checking Voter Identity (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT309a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Accepting only allowed Voter ID Documents (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT309f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Accepting only allowed Voter ID Documents (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT310a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Additional Voter Lists (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT310f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Additional Voter Lists (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT311a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Proper Stamping of the Ballot Paper (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT311f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Proper Stamping of the Ballot Paper (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT312a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Ensuring Vote Secrecy (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT312f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Ensuring Vote Secrecy (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT313a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Accompanying Voter; Unallowed Cases (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT313f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Accompanying Voter; Unallowed Cases (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT314a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Smoothness of the Process (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT314f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Smoothness of the Process (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT315a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Violence and Intimidation reported (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT315f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Violence and Intimidation reported (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT316a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Presence of Parties and Lists Candidates (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT316f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Presence of Parties and Lists Candidates (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT317a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Overall Evaluation as per Regulations (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT317f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Overall Evaluation as per Regulations (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT318a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Overall Evaluation as per Regulations (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT318f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Overall Evaluation as per Regulations (en)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT319a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Presence of Parties and Lists Candidates (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT319f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voting Process : Presence of Parties and Lists Candidates (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT320a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Complaints filled by Candidates Observers (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT320f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Complaints filled by Candidates Observers (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT321a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Estimate Results Nationwide (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT321f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Estimate Results Nationwide (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT322a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Proportion of blank and cancelled Ballots (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT322f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Counting Process : Proportion of blank and cancelled Ballots (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT323a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : At 11:00 (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT323f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : At 11:00 (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT324a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : At 15:00 (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT324f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : At 15:00 (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT325a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : Final (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT325f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : Final (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT326a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : All Over the Day (ar)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT326f",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"Presidential (2/2) EDay - Voter Turnout : All Over the Day (fr)",
+    "Size":"1920*1080",
+    "Timeline":"12/14",
+    "tags":"Insights; Presidential",
+    "Language":"fr"
+  },
+  {
+    "FIELD1":"",
+    "name":"",
+    "theme":"",
+    "Title":"",
+    "Size":"",
+    "Timeline":"",
+    "tags":"",
+    "Language":""
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT01a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"PVT vs. Exit Polls : Accuracy of Sources",
+    "Size":"1920*1080",
+    "Timeline":"-",
+    "tags":"Training Material",
+    "Language":"ar"
+  },
+  {
+    "FIELD1":"",
+    "name":"PVT02a",
+    "theme":"Parallel Voting Tabulations",
+    "Title":"PVT vs. Exit Polls : Accuracy and Election Quality Assessment",
+    "Size":"1920*1080",
+    "Timeline":"-",
+    "tags":"Training Material",
+    "Language":"ar"
+  }
+]
