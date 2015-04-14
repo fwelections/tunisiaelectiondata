@@ -11,15 +11,20 @@ angular.module('ted.stories', ['ngRoute'])
                 templateUrl: 'stories/stories.html',
                 controller: 'storiesCtrl'
             })
+            .when('/stories/:election/full', {
+                templateUrl: 'stories/full.html',
+                controller: 'fullCtrl'
+            })
             .when('/stories/:election/:map', {
                 templateUrl: 'stories/story.html',
                 controller: 'storyCtrl'
             });
+
     }])
 
     .controller('storiesCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
         if ($routeParams.election == undefined)
-        // default stories are  presidential elections ones ; 
+        // default stories are  presidential elections ones ;
             $routeParams.election = 'pre';
         var promise = Stories.listAll($routeParams.election, 'en');
         promise.then(function(response) {
@@ -28,10 +33,19 @@ angular.module('ted.stories', ['ngRoute'])
         });
 
     }])
+    .controller('fullCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
+        if ($routeParams.election == undefined)
+        // default stories are  presidential elections ones ;
+            $routeParams.election = 'pre';
+            console.log('full' + $routeParams.election);
+
+
+
+    }])
     .controller('storyCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
 
         if ($routeParams.election == undefined)
-        // default stories are  presidential elections ones ; 
+        // default stories are  presidential elections ones ;
             $routeParams.election = 'pre';
         var promise = Stories.getStory($routeParams.election, $routeParams.map, 'en');
         promise.then(function(response) {

@@ -8,28 +8,42 @@
 							</div>
 							<p>{{election.des}} </p>
 
-					
+
 						</div>
 					</div>
 				</div>
 
-<div class="main-stories col-md-9"> 
-			
+<div class="main-stories col-md-9">
+
+		<div  ng-if="elec !='nca'" class="story-item story-hover-3 inview-animate inview-fadeleft" style="background-image: url('{{map.image}}');">
+	<a href="#/stories/{{elec}}/full">
+
+
+		<!-- Item Overlay -->
+		<div class="story-overlay vcenter-wrapper">
+			<div class="overlay-texts vcenter">
+				<h3 class="title">All results </h3>
+				<h4 class="subtitle">all results</h4>
+			</div>
+		</div>
+		<!-- /Item Overlay -->
+	</a>
+</div>
         <div ng-repeat=" map in election.stories" class="story-item story-hover-3 inview-animate inview-fadeleft" style="background-image: url('{{map.image}}');">
 			<a href="#/stories/{{elec}}/{{map.id}}">
-				 
 
-				<!-- Item Overlay -->	
+
+				<!-- Item Overlay -->
 				<div class="story-overlay vcenter-wrapper">
 					<div class="overlay-texts vcenter">
 						<h3 class="title">{{map.title}}</h3>
 						<h4 class="subtitle">{{map.subtitle}}</h4>
 					</div>
 				</div>
-				<!-- /Item Overlay -->	
+				<!-- /Item Overlay -->
 			</a>
-		</div> 
-   
+		</div>
+
 
 </div>
 </diV>
