@@ -8,14 +8,14 @@ var ted= angular.module('ted', [
   'ted.stories',
   'ted.datasets',
   'ted.dataService',
-    'ted.community'
+  'ted.community'
 ]).
 config(['$routeProvider','$locationProvider','markedProvider',function($routeProvider, $locationProvider,markedProvider) {
 
  // $locationProvider.html5Mode(true);
  // $locationProvider.hashPrefix = '!';
-  $routeProvider.otherwise({redirectTo: '/par14'});
-   markedProvider.setOptions({gfm: true});
+    $routeProvider.otherwise({redirectTo: '/par14'});
+    markedProvider.setOptions({gfm: true});
 
 }]);
 
