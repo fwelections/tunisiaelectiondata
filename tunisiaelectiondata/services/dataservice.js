@@ -99,6 +99,22 @@ angular.module('ted.dataService', [])
 
                 return deferred.promise;
         },
+        geojson: function(file){
+          var deferred = $q.defer(),
+
+                httpPromise = $http.get(file);
+
+            httpPromise.then(function(response) {
+
+                deferred.resolve(response);
+
+
+            }, function(error) {
+                console.error(error);
+            });
+
+            return deferred.promise;
+        },
          getStory: function(election,story,language){
 
             if( language === undefined)
