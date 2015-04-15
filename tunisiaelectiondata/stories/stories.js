@@ -225,6 +225,7 @@ angular.module('ted.stories', ['ngRoute'])
 
   }])
   .controller('storyCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
+    $scope.elec = $routeParams.election;
 
   if ($routeParams.election == undefined)
   // default stories are  presidential elections ones ;
