@@ -655,3 +655,25 @@ margin-top: -35px;
 overflow: hidden;
 padding: 12px;
 }
+#findbox {
+  background: #eee;
+  border-radius:.125em;
+  border:2px solid #1978cf;
+  box-shadow: 0 0 8px #999;
+  margin-bottom: 10px;
+  padding: 2px;
+  width: 300px;
+  height: 35px;
+}
+.search-tooltip {
+  width: 300px;
+}
+.leaflet-control-search .search-cancel {
+  position: static;
+  float: left;
+  margin-left: -22px;
+}
+.leaflet-control-search .search-input{
+height: 100%;
+width: 89%;
+}

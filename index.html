@@ -12,12 +12,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css">
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+    <link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css" rel="stylesheet" />
+    <link href="assets/vendor/leaflet.search/leaflet-search.min.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="assets/vendor/slickgrid/2.0.1/slick.grid.css">
   <link rel="stylesheet" href="assets/vendor/recline/recline.css">
-    
+
   <base href="/tunisiaelectiondata/" />
 
 </head>
@@ -32,7 +33,7 @@
         <li><a href="#/community">Community Viz</a></li>
         <li><a href="#/about">About</a></li>
       </ul>
-     
+
     </div>
 
     <div class="navbar navbar-default navbar-fixed-top">
@@ -44,7 +45,7 @@
     </div>
 
     <div class="main-container">
-       
+
        <div class="main-content"  ng-view >
         </div>
     </div>
@@ -53,9 +54,9 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
- 
 
- 
+
+
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
@@ -74,12 +75,12 @@
     <script type="text/javascript" src="assets/vendor/mustache/0.5.0-dev/mustache.js"></script>
      <script type="text/javascript" src="assets/vendor/flot/jquery.flot.js"></script>
   <script type="text/javascript" src="assets/vendor/flot/jquery.flot.time.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
-
+<script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
    <script type="text/javascript" src="assets/vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-     
+   <script type="text/javascript" src="assets/vendor/leaflet.search/leaflet-search.min.js"></script>
   <script type="text/javascript" src="assets/vendor/jquery/jquery-ui.js"></script>
- 
+
   <script src="assets/vendor/slickgrid/2.0.1/jquery.event.drag-2.2.js"></script>
   <script src="assets/vendor/slickgrid/2.0.1/jquery.event.drop-2.2.js"></script>
 
@@ -95,7 +96,7 @@
 
   <script type="text/javascript" src="assets/vendor/moment/2.0.0/moment.js"></script>
   <script type="text/javascript" src="assets/vendor/timeline/js/timeline.js"></script>
-    
+
   <!-- model and backends -->
   <script type="text/javascript" src="assets/vendor/recline/src/ecma-fixes.js"></script>
   <script type="text/javascript" src="assets/vendor/recline/src/model.js"></script>
@@ -119,9 +120,9 @@
   <script type="text/javascript" src="assets/vendor/recline/src/widget.fields.js"></script>
   <script type="text/javascript" src="assets/vendor/recline/src/view.multiview.js"></script>
 
-    
-     <!-- 
-      
+
+     <!--
+
     <script type="text/javascript" src="assets/vendor/recline/recline.js"></script>
 
     -->
@@ -132,6 +133,6 @@
   <script src="services/translation.js"></script>
     <script src="services/dataservice.js"></script>
    <script src="community/community.js"></script>
-  
+
 </body>
 </html>
