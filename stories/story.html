@@ -1,14 +1,24 @@
 
- 
+
 <div class="row inner-partial bgblack">
     <div class="mainstory">
         <div id="map"></div>
-        <div class="map-title">
-     
-        <h2 class="section-title double-title" style="font-size:35px !important;">
-        {{story.title}} 
+
+        <div ng-if = "elec =='nca'" class="map-title-nca" >
+
+
+        <h2 class="section-title double-title" style="font-size:30px !important; color:#FFC107 !important">
+        {{story.title}}
 	</h2>
+            <span class="subtitle" style="font-weight: bold; !important ; color:#FFF">{{story.subtitle}}</span>
+        </div>
+        <div ng-if = "elec !='nca'" class="map-title" >
+
+
+        <h2 class="section-title double-title" style="font-size:35px !important;">
+        {{story.title}}
+  </h2>
             <span class="subtitle">{{story.subtitle}}</span>
         </div>
     </div>
-</div> 
+</div>

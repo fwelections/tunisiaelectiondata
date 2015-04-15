@@ -143,6 +143,18 @@ padding-left: 20px;
 max-width: 300px;
 color: black;
 }
+.map-title-nca {
+position: absolute;
+top: 13%;
+left: 10%;
+/* background-color: white; */
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 20px;
+padding-left: 20px;
+max-width: 360px;
+color: black;
+}
 .subtitle{
 position: relative;
 font-size: 15px;
