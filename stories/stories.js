@@ -44,7 +44,7 @@ angular.module('ted.stories', ['ngRoute'])
   theater.write("rad:Loading  data")
     .write("rad:Please wait ")
     .write(400)
-    .write("rad:Data loaded , search for your polling center below ")
+    .write("rad: Location plotting on the map ")
     .write(-100);
 
   if ($routeParams.election == undefined)
