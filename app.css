@@ -272,6 +272,19 @@ vertical-align: middle;
 .story-hover-3 .story-overlay .overlay-texts{
   padding:0 5%;
 }
+
+.story-overlay-dark{
+  opacity: 1;
+  background: rgba(0,0,0,0.8) !important ;
+}
+.story-hover-3:hover .story-overlay-dark,
+.story-hover-3:focus .story-overlay-dark{
+  background: rgba(0,0,0,0.3) !important;
+}
+.story-hover-3 .story-overlay .overlay-texts{
+  padding:0 5%;
+}
+
 .story-hover-3 .story-overlay .title{
   font-size: 22px;
   text-transform: uppercase;
@@ -592,15 +605,15 @@ margin-top: -35px;
     border: none;
   }
 
-  .gp-item{
+  .img-item{
     overflow: hidden;
     position: relative;
   }
-  .gp-item a {
+  .img-item a {
     display: block;
   }
 
-  .grid-portfolio .gp-item{
+  .img-list .img-item{
     float: left;
     width: 33%;
     margin: 0;
@@ -613,13 +626,13 @@ margin-top: -35px;
     padding:1%;
   }
 
-  .grid-portfolio .gp-item a{
+  .img-list .img-item a{
     position: relative;
     overflow: hidden;
     display:block;
   }
 
-  .grid-portfolio .gp-item img{
+  .img-list .img-item img{
     width:100%;
   }
 .circ-name {
@@ -694,4 +707,67 @@ width: 30%;
 margin-top: -30px;
 color: white;
 font-size: 17px;
+}
+.img-item{
+  overflow: hidden;
+  position: relative;
+}
+.img-item a {
+  display: block;
+}
+
+.img-list .img-item{
+  float: left;
+  width: 33%;
+  margin: 0;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.img-list .img-item a{
+  position: relative;
+  overflow: hidden;
+  display:block;
+  cursor:pointer !important;
+}
+
+.img-list .img-item img{
+  width:100%;
+}
+
+.img-list .img-item a:after{
+  border: 3px solid #fdfdfd;
+    content: "";
+    position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.dark-template .img-list .img-item a:after{
+  border-color: #1c1c1c;
+}
+
+.img-item.tj-hover-1:after{
+  right:3px;
+  left:3px;
+  top:3px;
+  bottom:3px;
+  width:auto;
+  height: auto;
+}
+
+.img-list.no-padding .img-item a:after{
+  border: none;
+}
+
+.img-list.no-padding .img-item.tj-hover-1:after{
+  right:0px;
+  left:0px;
+  top:0px;
+  bottom:0px;
 }
