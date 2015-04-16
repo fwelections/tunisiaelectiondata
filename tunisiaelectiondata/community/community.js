@@ -9,15 +9,17 @@ angular.module('ted.community', ['ngRoute'])
         });
     }])
 
-.controller('communityCtrl', ['Gallery', '$scope', '$routeParams', function(Gallery, $scope, $routeParams) {
+.controller('communityCtrl', ['Gallery', '$scope', '$routeParams','Lightbox', function(Gallery, $scope, $routeParams,Lightbox) {
 
   $scope.gitems={};
   var promise = Gallery.listAll();
   promise.then(function(response) {
 
        $scope.gitems = response.data;
-       console.log($scope.gitems)
+
        });
 
-
+    $scope.openLightboxModal = function (index) {
+    Lightbox.openModal($scope.gitems, index);
+  };
     }]);

@@ -1,37 +1,29 @@
-<div class="page-wrapper regular-page container">
-<div class="row">
-            <div class="col-md-3">
-
-              <!-- Page title -->
-              <h2 class="section-title double-title">
-                <span>Community </span>VIZ
-              </h2>
-              <!-- /Page title -->
-
-              <p>List of images produced by Mourakiboun</p>
-
-            </div>
-            <div class="col-md-9">
-
-              <!-- Gallery wrapper -->
-              <div class="grid-portfolio tj-lightbox-gallery same-ratio-items">
-                <!-- Gallery Item -->
-                <div class="gp-item tj-hover-5" ng-repeat="item in gitems">
-                  <a ng-href="assets/img/staticviz/{{item.name}}.jpg"  class="lightbox-gallery-item">
-                    <!-- Item Overlay -->
-                    <img ng-src="assets/img/staticviz/{{item.name}}.jpg" alt="Image not found " class="img-responsive">
-
-                    <div class="tj-overlay"></div>
-                    <!-- /Item Overlay -->
-                  </a>
-                </div>
-
-
+<div class="row inner-partial bgblack">
+<div class="sidebar col-md-3 " style="right: 0px; left: 0px; display: block;">
+          <div class="inner-wrapper vcenter-wrapper">
+            <div class="side-content vcenter">
+              <div class="title">
+                <span class="second-part"></span>
+                <span>Community Visualisation</span>
               </div>
-              <!-- /Gallery wrapper -->
+              <p>Produced by Mourakiboun </p>
+
 
             </div>
           </div>
+        </div>
 
+<div class="main-stories col-md-9">
+  <div class="img-list">
 
-</div>
+              <div class="img-item story-hover-3"  ng-repeat="item in gitems" style="height: 250px;">
+                <a ng-click="openLightboxModal($index)">
+                  <img ng-src="{{item.url}}" alt="Image not found " class="img-responsive">
+                   <div class="story-overlay story-overlay-dark" style="padding-top: 20px; padding-left:10px;">
+                    <h3 class="title">{{item.caption}}</h3>
+                    <h4 class="subtitle">{{item.tags}} / {{item.theme}}</h4>
+                  </div>
+                 </a>
+              </div>
+            </div>
+</diV>
