@@ -9,8 +9,11 @@ angular.module('ted.about', ['ngRoute'])
         });
     }])
 
-.controller('aboutCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
+.controller('navCtrl', ['$scope', '$routeParams','$location', function($scope, $routeParams,$location) {
 
-
+  $scope.isActive = function (viewLocation) {
+     var active = (viewLocation === $location.path());
+     return active;
+};
 
     }]);
