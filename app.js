@@ -21,4 +21,4 @@ config(['$routeProvider','$locationProvider','markedProvider',function($routePro
 
 }]);
 
-ted.value('registry', 'https://cdn.rawgit.com/radproject/datasets-registry/master/catalog.txt');
+ted.value('registry', 'catalog.txt');
