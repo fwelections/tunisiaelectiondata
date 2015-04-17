@@ -22,3 +22,4 @@ config(['$routeProvider','$locationProvider','markedProvider',function($routePro
 }]);
 
 ted.value('registry', 'catalog.txt');
+ 

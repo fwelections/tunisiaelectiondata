@@ -45,7 +45,7 @@ my.Dataset = Backbone.Model.extend({
     this._store = this.backend;
 
     // if backend has a handleQueryResultFunction, use that
-    this._handleResult = (this.backend != null && _.has(this.backend, 'handleQueryResult')) ? 
+    this._handleResult = (this.backend != null && _.has(this.backend, 'handleQueryResult')) ?
       this.backend.handleQueryResult : this._handleQueryResult;
     if (this.backend == recline.Backend.Memory) {
       this.fetch();
@@ -105,7 +105,7 @@ my.Dataset = Backbone.Model.extend({
   },
 
   // ### _normalizeRecordsAndFields
-  // 
+  //
   // Get a proper set of fields and records from incoming set of fields and records either of which may be null or arrays or objects
   //
   // e.g. fields = ['a', 'b', 'c'] and records = [ [1,2,3] ] =>
@@ -122,7 +122,7 @@ my.Dataset = Backbone.Model.extend({
           return {id: key};
         });
       }
-    } 
+    }
 
     // fields is an array of strings (i.e. list of field headings/ids)
     if (fields && fields.length > 0 && (fields[0] === null || typeof(fields[0]) != 'object')) {
@@ -198,8 +198,7 @@ my.Dataset = Backbone.Model.extend({
       this.queryState.set(attributes, {silent: true});
     }
     var actualQuery = this.queryState.toJSON();
-   console.log( this._store);
-console.log( this._store.query(actualQuery));
+ 
     this._store.query(actualQuery, this.toJSON())
       .done(function(queryResult) {
         self._handleResult(queryResult);
@@ -247,7 +246,7 @@ console.log( this._store.query(actualQuery));
   // ### getFieldsSummary
   //
   // Get a summary for each field in the form of a `Facet`.
-  // 
+  //
   // @return null as this is async function. Provides deferred/promise interface.
   getFieldsSummary: function() {
     var self = this;
@@ -294,7 +293,7 @@ console.log( this._store.query(actualQuery));
 
 
 // ## <a id="record">A Record</a>
-// 
+//
 // A single record (or row) in the dataset
 my.Record = Backbone.Model.extend({
   constructor: function Record() {
@@ -302,7 +301,7 @@ my.Record = Backbone.Model.extend({
   },
 
   // ### initialize
-  // 
+  //
   // Create a Record
   //
   // You usually will not do this directly but will have records created by
@@ -350,7 +349,7 @@ my.Record = Backbone.Model.extend({
   summary: function(record) {
     var self = this;
     var html = '<div class="recline-record-summary">';
-    this.fields.each(function(field) { 
+    this.fields.each(function(field) {
       if (field.id != 'id') {
         html += '<div class="' + field.id + '"><strong>' + field.get('label') + '</strong>: ' + self.getFieldValue(field) + '</div>';
       }
@@ -434,7 +433,7 @@ my.Field = Backbone.Model.extend({
       return JSON.stringify(val);
     },
     'number': function(val, field, doc) {
-      var format = field.get('format'); 
+      var format = field.get('format');
       if (format === 'percentage') {
         return val + '%';
       }
@@ -506,7 +505,7 @@ my.Query = Backbone.Model.extend({
         lat: 0
       }
     }
-  },  
+  },
   // ### addFilter(filter)
   //
   // Add a new filter specified by the filter hash and append to the list of filters
@@ -532,7 +531,7 @@ my.Query = Backbone.Model.extend({
         idx = key;
       }
     });
-    // trigger just one event (change:filters:new-blank) instead of one for remove and 
+    // trigger just one event (change:filters:new-blank) instead of one for remove and
     // one for add
     if (idx >= 0) {
       filters.splice(idx, 1);
@@ -649,4 +648,3 @@ my.ObjectState = Backbone.Model.extend({
 // };
 
 }(this.recline.Model));
-

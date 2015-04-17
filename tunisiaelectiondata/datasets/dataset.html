@@ -13,24 +13,19 @@
                   <div class="description">{{dataset.description}}</div>
                </div>
                <div class="col-md-4">
-                  <div class="source">
-                     <span>Sources:</span>
-                     <div ng-repeat="source in dataset.sources">
-                        <a href="{{source.web}}" target="_blank">{{source.name}}</a>
-                     </div>
-                  </div>
+                 
                    <br/>
                    <div class="licence">
                    <span>License(s):</span>
                        <ul>
                            <li ng-repeat=" license in dataset.licenses" class="resourcesList"> <a href="{{license.url}}" target="_blank">{{license.name}}</a></li>
                        </ul>
-                      
+
                    </div>
                    <br/>
                    <div class="git">
                    <span>Repository:</span> <a href="{{dataset.git}}" >{{dataset.git}}</a><br/>
-                    <a href="{{dataset.git}}/issues/new" class="btn btn-danger issue" > Report an issue </a>   
+                    <a href="{{dataset.git}}/issues/new" class="btn btn-danger issue" > Report an issue </a>
                    </div>
                    <br/>
                   <div class="keywords">

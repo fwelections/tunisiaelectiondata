@@ -32,6 +32,7 @@ angular.module('ted.stories', ['ngRoute'])
     $scope.election = response.data;
   });
 
+
 }])
   .controller('fullCtrl', ['Stories', '$scope', '$routeParams', function(Stories, $scope, $routeParams) {
   var theater = new TheaterJS();
