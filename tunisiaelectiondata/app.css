@@ -771,3 +771,8 @@ font-size: 17px;
   top:0px;
   bottom:0px;
 }
+.footer-txt {
+text-align: right;
+position: absolute;
+bottom: 10px;
+}

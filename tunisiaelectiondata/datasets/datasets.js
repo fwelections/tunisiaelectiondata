@@ -20,7 +20,7 @@ angular.module('ted.datasets', ['ngRoute'])
     promise.then(function(response) {
         var rlines = response.data.split(/\n/);
         for (var i = 0; i < rlines.length; i++) {
-           
+
             var rawArray = rlines[i].split('/');
             var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
@@ -100,12 +100,7 @@ angular.module('ted.datasets', ['ngRoute'])
          var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/' + resource.path;
         //change this for the live version
        // var rawUrl = $scope.dataset.git + '/' + resource.path;
-        resource.fields = _.map(resource.schema.fields, function(field) {
-            if (field.name && !field.id) {
-                field.id = field.name;
-            }
-            return field;
-        });
+
         var dataset = new recline.Model.Dataset({
             url: rawUrl,
             backend: 'csv',
@@ -121,15 +116,15 @@ angular.module('ted.datasets', ['ngRoute'])
 
 
     }
-  
+
 
     $scope.datasets = [];
     $scope.dataset = null;
     var promise = Datasets.list();
     promise.then(function(response) {
         var rlines = response.data.split(/\n/);
-        
-        for (var i = 0; i < rlines.length; i++) {
+
+        for (var i = 0; i < rlines.length && ($scope.dataset == null); i++) {
             var rawArray = rlines[i].split('/');
              var rawUrl = 'https://cdn.rawgit.com/'+ rawArray[3] + '/' + rawArray[4] +'/master/datapackage.json';
             //change this for the live version
@@ -138,28 +133,33 @@ angular.module('ted.datasets', ['ngRoute'])
             var promise1 = Datasets.readPackage(rawUrl, rlines[i]);
             promise1.then(function(response1) {
                 var dataset = response1.data;
-                $scope.datasets.push(response1.data);
-                 for (var d=0; d<$scope.datasets.length; d++) {
-                    if ($scope.datasets[d].name == $routeParams.name)
-                       $scope.dataset  = $scope.datasets[d];
-                     $scope.readme=  $sce.trustAsResourceUrl($scope.dataset.readme);
-                }
-                if ($scope.dataset != null) {
 
-                    $scope.dataset.resources.forEach(createDatasetView);
+                var n = dataset.name.localeCompare($routeParams.name);
+                 if (dataset.name.trim() == $routeParams.name.trim())
+                {   $scope.dataset  = dataset;
 
+                    $scope.readme=  $sce.trustAsResourceUrl($scope.dataset.readme);}
 
-                }
                   });
         }}
-          });
-       
+        setTimeout(function() {
+          if ($scope.dataset != null) {
 
-         
-        
+              $scope.dataset.resources.forEach(createDatasetView);
+              console.log(  $scope.dataset.resources);
 
 
-  
+          }
+  }, 2000);
+          })
+          ;
+
+
+
+
+
+
+
 
 
 
