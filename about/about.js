@@ -4,8 +4,7 @@ angular.module('ted.about', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/about', {
-            templateUrl: 'about/about.html',
-            controller: 'aboutCtrl'
+            templateUrl: 'about/about.html'
         });
     }])
 
