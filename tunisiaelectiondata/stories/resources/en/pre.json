@@ -6,7 +6,7 @@
       {
          "id":1,
          "title":"Results by gender",
-         "subtitle":"turnout by gended desc",
+         "subtitle":"Visualizing voter turnout by gender down to the polling center level",
          "mapid":"tunisia.ljno487p",
          "image":"assets/img/pback1.png",
          "readme":"todo"
@@ -14,7 +14,7 @@
       {
          "id":2,
          "title":"Statistics ",
-         "subtitle":"young voters ",
+         "subtitle":"Visualizing voter turnout by age group ",
          "mapid":"tunisia.ljnnia1a",
          "image":"assets/img/pback2.png",
          "readme":"todo"
@@ -22,7 +22,7 @@
        {
          "id":3,
          "title":"statistics",
-         "subtitle":"old voters",
+         "subtitle":"Visualizing voter turnout by age group ",
          "mapid":"tunisia.ljno05i0",
          "image":"assets/img/pback3.png",
          "readme":"todo"
@@ -30,7 +30,7 @@
         {
          "id":4,
          "title":"Results by candidate",
-         "subtitle":"beji runoff",
+         "subtitle":"Beji Caid Essebsi Round2 results",
          "mapid":"tunisia.ljn4g779",
          "image":"assets/img/pback4.png",
          "readme":"todo"
@@ -38,7 +38,7 @@
  {
          "id":5,
          "title":"Results by candidate ",
-         "subtitle":"marzouki runoff",
+         "subtitle":"Moncef Marzouki Round2 results",
          "mapid":"tunisia.ljna5109",
          "image":"assets/img/pback5.png",
          "readme":"todo"
@@ -46,7 +46,7 @@
  {
          "id":6,
          "title":"results by candidate" ,
-         "subtitle":"sebsi round1",
+         "subtitle":"Beji Caid Essebsi Round1 results",
          "mapid":"tunisia.ljn3ng0a",
          "image":"assets/img/pback6.png",
          "readme":"todo"
@@ -54,7 +54,7 @@
  {
          "id":7,
          "title":"results by candidate ",
-         "subtitle":"marzouki round 1",
+         "subtitle":"Moncef Marzouki Round1 results",
          "mapid":"tunisia.ljn3f695",
          "image":"assets/img/pback7.png",
          "readme":"todo"
@@ -62,7 +62,7 @@
 {
          "id":8,
          "title":"Results candidate ",
-         "subtitle":"runoff compare",
+         "subtitle":"Comparing Moncef Marzouki and Beji Caid Essebsi results",
          "mapid":"tunisia.ljnd3i6k",
          "image":"assets/img/pback8.png",
          "readme":"todo"
@@ -70,7 +70,7 @@
  {
          "id":9,
          "title":"Turnout stats",
-         "subtitle":"turnout variation ",
+         "subtitle":"Turnout  in the second round compared to the first round",
          "mapid":"tunisia.ljnf75jo",
          "image":"assets/img/pback9.png",
          "readme":"todo"
@@ -78,15 +78,15 @@
  {
          "id":10,
          "title":"turnout stats",
-         "subtitle":"round 1 turnout",
+         "subtitle":"Round 1 turnout",
          "mapid":"tunisia.ljn1pb40",
          "image":"assets/img/pback10.png",
          "readme":"todo"
       },
  {
          "id":11,
-         "title":"misc ",
-         "subtitle":"polling centers",
+         "title":"Misc ",
+         "subtitle":"Number of Polling center ",
          "mapid":"tunisia.ljmif17a",
          "image":"assets/img/pback11.png",
          "readme":"todo"
@@ -94,7 +94,7 @@
  {
          "id":12,
          "title":"misc ",
-         "subtitle":"canceled",
+         "subtitle":"Visualizing cancelled ballots",
          "mapid":"tunisia.ljn2hbp2",
          "image":"assets/img/pback12.png",
          "readme":"todo"
