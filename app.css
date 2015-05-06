@@ -691,6 +691,17 @@ padding: 5px;
   width: 300px;
   height: 35px;
 }
+#find-district
+ {
+  background: #eee;
+  border-radius:.125em;
+  border:2px solid #1978cf;
+  box-shadow: 0 0 8px #999;
+  margin-bottom: 10px;
+  padding: 2px;
+  width: 300px;
+  height: 35px;
+}
 .search-tooltip {
   width: 300px;
 }
