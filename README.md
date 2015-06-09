@@ -1,4 +1,4 @@
-# Tunisia eletion data
+# Tunisia election data
 
 Created to collect, open, visualize, and analyze election-related data on an ongoing basis – is a project implemented by [Mourakiboun](http://www.mourakiboun.org) with support from [Democracy International](http://democracyinternational.com) and technical assistance from [Development Seed](http://developmentseed.org).
 
