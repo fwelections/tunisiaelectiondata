@@ -107,8 +107,11 @@ angular.module('ted.stories', ['ngRoute'])
           // and you can iterate through layers to bind custom popups.
           geojsonLayer.eachLayer(function(layer) {
             var feature = layer.feature;
+            console.log(feature);
             if (feature) {
-              var popupContent = '<div class="title">' + feature.properties.center_name + ' ' + feature.properties.deleg_name + ' ' + feature.properties.circ_name + '</div>' +
+            	var datafile = 'stories/resources/en/' + $routeParams.election +  '/' + feature.properties.circ_id + '.csv';
+            	var downdataLink = '<a href= "' + datafile + '" target = "_blank"> (Download Data ) </a>';
+              var popupContent = '<div class="title">' + feature.properties.center_name + ' ' + feature.properties.deleg_name + ' ' + feature.properties.circ_name + downdataLink + '</div>' +
                 '<div class="row"><div class="col-md-6"><div id="candidate"></div></div><div class="col-md-6"><div id="turnout"></div></div></div>';
 
 
